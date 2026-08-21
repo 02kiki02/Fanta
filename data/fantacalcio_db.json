@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-08-21T13:01:56+00:00",
+    "updated_at": "2026-08-21T18:47:40+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -267,7 +267,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/davis-k/5637/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 60,
+      "probabile_pct": 65,
       "probabile_status": "titolare"
     },
     {
@@ -1386,9 +1386,9 @@
       "presenze_pct": 79,
       "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/di-gregorio/5876/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 5,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "2134",
@@ -2287,7 +2287,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/napoli/lang/7120/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 20,
+      "probabile_pct": 30,
       "probabile_status": "panchina"
     },
     {
@@ -3327,7 +3327,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/napoli/beukema/6202/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 20,
+      "probabile_pct": 25,
       "probabile_status": "panchina"
     },
     {
@@ -3586,9 +3586,9 @@
       "presenze_pct": 68,
       "url": "https://www.fantacalcio.it/serie-a/squadre/cagliari/folorunsho/6252/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 15,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "2678",
@@ -3866,9 +3866,9 @@
       "presenze_pct": 42,
       "url": "https://www.fantacalcio.it/serie-a/squadre/napoli/neres/6831/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": false,
+      "probabile_pct": 25,
+      "probabile_status": "panchina"
     },
     {
       "id": "5336",
@@ -4807,7 +4807,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/idzes/6672/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 80,
+      "probabile_pct": 60,
       "probabile_status": "titolare"
     },
     {
@@ -5346,9 +5346,9 @@
       "presenze_pct": 55,
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/buksa/7249/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 60,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "6274",
@@ -7107,7 +7107,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/gueye/7272/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 35,
+      "probabile_pct": 40,
       "probabile_status": "panchina"
     },
     {
@@ -7166,9 +7166,9 @@
       "presenze_pct": 37,
       "url": "https://www.fantacalcio.it/serie-a/squadre/como/kuhn/7128/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 35,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "7331",
@@ -7566,9 +7566,9 @@
       "presenze_pct": 37,
       "url": "https://www.fantacalcio.it/serie-a/squadre/como/van-der-brempt/6896/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 20,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "6990",
@@ -8967,7 +8967,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/iannoni/7157/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 30,
+      "probabile_pct": 20,
       "probabile_status": "panchina"
     },
     {
@@ -9427,7 +9427,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/zarraga/6212/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 40,
+      "probabile_pct": 30,
       "probabile_status": "panchina"
     },
     {
@@ -9667,7 +9667,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/bayo-v/7161/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 40,
+      "probabile_pct": 60,
       "probabile_status": "panchina"
     },
     {
@@ -9969,26 +9969,6 @@
       "probabile": true,
       "probabile_pct": 90,
       "probabile_status": "titolare"
-    },
-    {
-      "id": "6537",
-      "nome": "Goglichidze",
-      "ruolo": "D",
-      "ruolo_mantra": "DD/DC",
-      "squadra": "UDI",
-      "team_id": "19",
-      "qi": 4,
-      "qa": 2,
-      "fvm": 7,
-      "qi_mantra": 4,
-      "qa_mantra": 2,
-      "fvm_mantra": 9,
-      "presenze_pct": 16,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/goglichidze/6537/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 30,
-      "probabile_status": "panchina"
     },
     {
       "id": "7248",
@@ -10347,7 +10327,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/missori/6189/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 30,
+      "probabile_pct": 20,
       "probabile_status": "panchina"
     },
     {
@@ -10507,7 +10487,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/palma/6925/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 80,
+      "probabile_pct": 60,
       "probabile_status": "titolare"
     },
     {
@@ -10926,9 +10906,9 @@
       "presenze_pct": 0,
       "url": "https://www.fantacalcio.it/serie-a/squadre/como/azon/7027/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 20,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "7262",
@@ -12111,6 +12091,26 @@
       "probabile_status": null
     },
     {
+      "id": "7154",
+      "nome": "Odenthal",
+      "ruolo": "D",
+      "ruolo_mantra": "DC",
+      "squadra": "SAS",
+      "team_id": "17",
+      "qi": 3,
+      "qa": 1,
+      "fvm": 7,
+      "qi_mantra": 3,
+      "qa_mantra": 1,
+      "fvm_mantra": 7,
+      "presenze_pct": 0,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/odenthal/7154/2025-26",
+      "season": "2025-26",
+      "probabile": true,
+      "probabile_pct": 90,
+      "probabile_status": "titolare"
+    },
+    {
       "id": "7271",
       "nome": "Odogu",
       "ruolo": "D",
@@ -12346,9 +12346,9 @@
       "presenze_pct": 0,
       "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/pinsoglio/1930/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": false,
+      "probabile_pct": 1,
+      "probabile_status": "panchina"
     },
     {
       "id": "6635",
@@ -13251,24 +13251,24 @@
       "probabile_status": null
     },
     {
-      "id": "7154",
-      "nome": "Odenthal",
+      "id": "6537",
+      "nome": "Goglichidze",
       "ruolo": "D",
-      "ruolo_mantra": "DC",
-      "squadra": "SAS",
-      "team_id": "17",
-      "qi": 3,
+      "ruolo_mantra": "DD/DC",
+      "squadra": "UDI",
+      "team_id": "19",
+      "qi": 4,
       "qa": 0,
       "fvm": 0,
-      "qi_mantra": 3,
+      "qi_mantra": 4,
       "qa_mantra": 0,
       "fvm_mantra": 0,
-      "presenze_pct": 0,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/odenthal/7154/2025-26",
+      "presenze_pct": 16,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/goglichidze/6537/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 90,
-      "probabile_status": "titolare"
+      "probabile": false,
+      "probabile_pct": 30,
+      "probabile_status": "panchina"
     }
   ]
 }
