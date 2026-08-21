@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FANTA — Asta Live</title>
+    <meta
+      name="description"
+      content="Gestione asta e rosa Fantacalcio: listone live da GitHub, budget e preferiti sul tuo browser."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">Fan<span>ta</span></div>
+          <div class="brand-sub" id="teamSubtitle">La tua sala asta personale</div>
+        </div>
+        <div class="top-actions">
+          <div class="chip live" id="dbStatusChip">Listone…</div>
+          <button class="btn btn-ghost" id="btnRefreshDb" type="button">Aggiorna listone</button>
+        </div>
+      </header>
+
+      <nav class="nav-tabs" id="navTabs" aria-label="Sezioni">
+        <button type="button" data-panel="dashboard" class="active">Dashboard</button>
+        <button type="button" data-panel="prelista">Pre-lista</button>
+        <button type="button" data-panel="asta">Asta Live</button>
+        <button type="button" data-panel="rosa">Rosa</button>
+        <button type="button" data-panel="settings">Impostazioni</button>
+      </nav>
+
+      <main>
+        <section class="panel active" id="panel-dashboard">
+          <div class="hero-strip">
+            <h1 id="dashHeroTitle">Pronti per l’asta</h1>
+            <p id="dashHeroText">
+              Budget, target per reparto e rosa aggiornati in tempo reale mentre bandisci.
+            </p>
+          </div>
+          <div class="metrics" id="dashMetrics"></div>
+          <div class="grid-2">
+            <div class="card">
+              <h2>Spesa vs target</h2>
+              <div class="role-bars" id="dashRoleBars"></div>
+            </div>
+            <div class="card">
+              <h2>Ultimi acquisti</h2>
+              <div id="dashRecent"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-prelista">
+          <div class="card">
+            <h2>Pre-lista & preferiti</h2>
+            <div class="filters">
+              <div class="field">
+                <label for="preSearch">Cerca</label>
+                <input id="preSearch" type="search" placeholder="Thuram, Dimarco…" />
+              </div>
+              <div class="field">
+                <label for="preRole">Ruolo</label>
+                <select id="preRole">
+                  <option value="">Tutti</option>
+                  <option value="P">P</option>
+                  <option value="D">D</option>
+                  <option value="C">C</option>
+                  <option value="A">A</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="preTeam">Squadra</label>
+                <select id="preTeam"><option value="">Tutte</option></select>
+              </div>
+              <div class="field">
+                <label for="preList">Liste</label>
+                <select id="preList">
+                  <option value="all">Tutti</option>
+                  <option value="preferiti">Solo preferiti</option>
+                  <option value="wishlist">Solo wishlist</option>
+                  <option value="either">Preferiti o wishlist</option>
+                </select>
+              </div>
+            </div>
+            <p class="muted" id="preCount"></p>
+            <div class="table-wrap">
+              <table class="data">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Nome</th>
+                    <th>Sq</th>
+                    <th>QA</th>
+                    <th>FVM</th>
+                    <th>Prob.</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="preTableBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-asta">
+          <div class="metrics" id="astaMetrics"></div>
+          <div class="grid-2">
+            <div class="card">
+              <h2>Bandisci</h2>
+              <div class="filters" style="grid-template-columns: 2fr 1fr 1fr">
+                <div class="field">
+                  <label for="astaSearch">Cerca giocatore</label>
+                  <input id="astaSearch" type="search" placeholder="Nome in asta…" />
+                </div>
+                <div class="field">
+                  <label for="astaRole">Ruolo</label>
+                  <select id="astaRole">
+                    <option value="">Tutti</option>
+                    <option value="P">P</option>
+                    <option value="D">D</option>
+                    <option value="C">C</option>
+                    <option value="A">A</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="astaFocus">Focus</label>
+                  <select id="astaFocus">
+                    <option value="all">Tutti</option>
+                    <option value="preferiti">Preferiti</option>
+                    <option value="wishlist">Wishlist</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field" style="margin-bottom: 0.8rem">
+                <label for="astaPlayer">Giocatore</label>
+                <select id="astaPlayer"></select>
+              </div>
+              <div id="astaPlayerCard" class="player-card"></div>
+            </div>
+            <div class="card">
+              <h2>Acquista</h2>
+              <div class="field">
+                <label for="astaPrice">Crediti</label>
+                <input id="astaPrice" type="number" min="1" step="1" value="1" />
+              </div>
+              <p class="muted" id="astaHint" style="margin: 0.8rem 0"></p>
+              <div class="btn-row">
+                <button class="btn btn-primary" id="btnBuy" type="button">Acquista</button>
+                <button class="btn btn-accent" id="btnFavAsta" type="button">Preferito</button>
+                <button class="btn btn-ghost" id="btnWishAsta" type="button">Wishlist</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-rosa">
+          <div class="metrics" id="rosaMetrics"></div>
+          <div class="card">
+            <h2>La tua rosa</h2>
+            <div id="rosaTableWrap"></div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-settings">
+          <div class="card">
+            <h2>Impostazioni squadra</h2>
+            <div class="grid-2">
+              <div>
+                <div class="field" style="margin-bottom: 0.8rem">
+                  <label for="setTeamName">Nome squadra</label>
+                  <input id="setTeamName" type="text" />
+                </div>
+                <div class="field" style="margin-bottom: 0.8rem">
+                  <label for="setLeagueName">Nome lega (opzionale)</label>
+                  <input id="setLeagueName" type="text" />
+                </div>
+                <div class="field" style="margin-bottom: 0.8rem">
+                  <label for="setBudget">Crediti iniziali</label>
+                  <input id="setBudget" type="number" min="100" step="10" />
+                </div>
+                <div class="filters" style="grid-template-columns: repeat(4, 1fr)">
+                  <div class="field">
+                    <label for="setTP">Target P</label>
+                    <input id="setTP" type="number" min="0" step="5" />
+                  </div>
+                  <div class="field">
+                    <label for="setTD">Target D</label>
+                    <input id="setTD" type="number" min="0" step="5" />
+                  </div>
+                  <div class="field">
+                    <label for="setTC">Target C</label>
+                    <input id="setTC" type="number" min="0" step="5" />
+                  </div>
+                  <div class="field">
+                    <label for="setTA">Target A</label>
+                    <input id="setTA" type="number" min="0" step="5" />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="field" style="margin-bottom: 0.8rem">
+                  <label for="setDbUrl">URL Raw listone (GitHub)</label>
+                  <input id="setDbUrl" type="url" />
+                </div>
+                <p class="muted">
+                  Il listone si aggiorna da solo quando gira la GitHub Action. Non serve ripubblicare
+                  Netlify.
+                </p>
+                <div class="btn-row" style="margin-top: 1rem">
+                  <button class="btn btn-primary" id="btnSaveSettings" type="button">Salva</button>
+                  <button class="btn btn-ghost" id="btnExport" type="button">Esporta backup</button>
+                  <label class="btn btn-ghost" style="display: inline-flex; align-items: center">
+                    Importa
+                    <input id="importFile" type="file" accept="application/json,.json" hidden />
+                  </label>
+                  <button class="btn btn-danger" id="btnReset" type="button">Reset asta</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <p class="footer-note">
+        Listone live da GitHub · Rosa e preferiti salvati solo su questo browser
+      </p>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
