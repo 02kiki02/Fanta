@@ -4,24 +4,32 @@ import {
   ROLE_ORDER,
   budgetSummary,
   buyPlayer,
+  createProfile,
+  deleteProfile,
   exportStateJson,
+  getActiveProfile,
   importStateJson,
-  loadState,
+  listProfiles,
+  loadStore,
   resetAuctionLists,
   rosaIds,
-  saveState,
+  saveStore,
   sellPlayer,
+  switchProfile,
   toggleList,
+  upsertActiveProfile,
 } from "./state.js";
 
 const app = {
-  state: loadState(),
+  store: loadStore(),
+  state: null,
   players: [],
   meta: {},
   selectedId: null,
   dbError: null,
   fromCache: false,
 };
+app.state = getActiveProfile(app.store);
 
 const $ = (id) => document.getElementById(id);
 
@@ -35,7 +43,36 @@ function toast(message, isError = false) {
 }
 
 function persist() {
-  saveState(app.state);
+  app.store = upsertActiveProfile(app.store, app.state);
+  saveStore(app.store);
+  app.state = getActiveProfile(app.store);
+  renderProfileSelect();
+}
+
+function renderProfileSelect() {
+  const select = $("profileSelect");
+  if (!select) return;
+  const items = listProfiles(app.store);
+  select.innerHTML = items
+    .map(
+      (p) =>
+        `<option value="${p.id}" ${p.id === app.store.activeId ? "selected" : ""}>${escapeHtml(
+          p.label
+        )}</option>`
+    )
+    .join("");
+}
+
+function activateProfile(profileId) {
+  app.store = switchProfile(app.store, profileId);
+  saveStore(app.store);
+  app.state = getActiveProfile(app.store);
+  app.selectedId = null;
+  if ($("astaPrice")) $("astaPrice").dataset.touched = "";
+  fillSettingsForm();
+  renderProfileSelect();
+  renderAll();
+  toast(`Profilo: ${app.state.teamName}`);
 }
 
 function ownedSet() {
@@ -327,6 +364,7 @@ function fillSettingsForm() {
 }
 
 function renderAll() {
+  renderProfileSelect();
   updateDbChip();
   renderDashboard();
   renderPrelista();
@@ -389,6 +427,46 @@ function bindEvents() {
   $("btnRefreshDb").addEventListener("click", () => {
     clearDbCache();
     loadDb({ force: true });
+  });
+
+  $("profileSelect").addEventListener("change", (e) => {
+    activateProfile(e.target.value);
+  });
+
+  $("btnNewProfile").addEventListener("click", () => {
+    const name = prompt("Nome squadra per il nuovo profilo?", `Fanta ${app.store.profiles.length + 1}`);
+    if (name === null) return;
+    const league = prompt("Nome lega (opzionale)?", "") ?? "";
+    app.store = createProfile(app.store, {
+      teamName: name.trim() || `Fanta ${app.store.profiles.length + 1}`,
+      leagueName: league.trim(),
+    });
+    saveStore(app.store);
+    app.state = getActiveProfile(app.store);
+    app.selectedId = null;
+    fillSettingsForm();
+    renderAll();
+    toast(`Creato profilo: ${app.state.teamName}`);
+  });
+
+  $("btnDeleteProfile").addEventListener("click", () => {
+    if (app.store.profiles.length <= 1) {
+      toast("Serve almeno un profilo.", true);
+      return;
+    }
+    if (!confirm(`Eliminare il profilo "${app.state.teamName}"? Rosa e liste di questo profilo verranno cancellate.`)) {
+      return;
+    }
+    try {
+      app.store = deleteProfile(app.store, app.store.activeId);
+      saveStore(app.store);
+      app.state = getActiveProfile(app.store);
+      fillSettingsForm();
+      renderAll();
+      toast("Profilo eliminato");
+    } catch (err) {
+      toast(err.message, true);
+    }
   });
 
   ["preSearch", "preRole", "preTeam", "preList"].forEach((id) => {
@@ -524,12 +602,14 @@ function bindEvents() {
     if (!file) return;
     try {
       const text = await file.text();
-      app.state = importStateJson(text);
+      const imported = importStateJson(text);
+      // Sovrascrive il profilo attivo, mantiene l'id corrente
+      app.state = { ...imported, id: app.state.id };
       persist();
       fillSettingsForm();
       clearDbCache();
       await loadDb({ force: true });
-      toast("Backup importato");
+      toast("Backup importato sul profilo attivo");
     } catch (err) {
       toast(`Import fallito: ${err.message}`, true);
     } finally {
@@ -538,7 +618,7 @@ function bindEvents() {
   });
 
   $("btnReset").addEventListener("click", () => {
-    if (!confirm("Reset rosa, preferiti e wishlist? Le impostazioni restano.")) return;
+    if (!confirm("Reset rosa, preferiti e wishlist di QUESTO profilo? Le impostazioni restano.")) return;
     app.state = resetAuctionLists(app.state);
     persist();
     toast("Asta resettata");
@@ -548,4 +628,5 @@ function bindEvents() {
 
 bindEvents();
 fillSettingsForm();
+renderProfileSelect();
 loadDb();

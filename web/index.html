@@ -24,6 +24,10 @@
           <div class="brand-sub" id="teamSubtitle">La tua sala asta personale</div>
         </div>
         <div class="top-actions">
+          <label class="chip profile-chip" for="profileSelect">
+            Profilo
+            <select id="profileSelect" aria-label="Seleziona profilo fanta"></select>
+          </label>
           <div class="chip live" id="dbStatusChip">Listone…</div>
           <button class="btn btn-ghost" id="btnRefreshDb" type="button">Aggiorna listone</button>
         </div>
@@ -170,6 +174,16 @@
         </section>
 
         <section class="panel" id="panel-settings">
+          <div class="card">
+            <h2>Profili asta (2 fanta)</h2>
+            <p class="muted" style="margin-top: 0">
+              Ogni profilo ha budget, preferiti, wishlist e rosa separati. Ideale se giochi due leghe.
+            </p>
+            <div class="btn-row" style="margin: 0.8rem 0 0.2rem">
+              <button class="btn btn-accent" id="btnNewProfile" type="button">+ Nuovo profilo</button>
+              <button class="btn btn-danger" id="btnDeleteProfile" type="button">Elimina profilo attivo</button>
+            </div>
+          </div>
           <div class="card">
             <h2>Impostazioni squadra</h2>
             <div class="grid-2">

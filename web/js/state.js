@@ -1,10 +1,11 @@
 /**
- * Stato squadra / asta in localStorage (+ export/import).
+ * Multi-profilo: ogni fanta ha rosa/preferiti/budget separati (localStorage).
  */
 
 import { getDefaultDbUrl } from "./db.js";
 
-const STORAGE_KEY = "fanta_team_state_v1";
+const STORE_KEY = "fanta_store_v2";
+const LEGACY_KEY = "fanta_team_state_v1";
 
 export const ROLE_ORDER = ["P", "D", "C", "A"];
 export const ROLE_LABELS = {
@@ -16,44 +17,136 @@ export const ROLE_LABELS = {
 
 const DEFAULT_TARGET = { P: 50, D: 125, C: 150, A: 175 };
 
-export function defaultState() {
+function uid() {
+  return `p_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
+}
+
+export function defaultState(overrides = {}) {
   return {
-    teamName: "La Mia Squadra",
-    leagueName: "",
-    budget_iniziale: 500,
-    target_reparti: { ...DEFAULT_TARGET },
-    preferiti: [],
-    wishlist: [],
-    rosa: [],
-    db_url: getDefaultDbUrl(),
+    id: overrides.id || uid(),
+    teamName: overrides.teamName || "Fanta 1",
+    leagueName: overrides.leagueName || "",
+    budget_iniziale: overrides.budget_iniziale ?? 500,
+    target_reparti: { ...DEFAULT_TARGET, ...(overrides.target_reparti || {}) },
+    preferiti: [...(overrides.preferiti || [])].map(String),
+    wishlist: [...(overrides.wishlist || [])].map(String),
+    rosa: Array.isArray(overrides.rosa) ? [...overrides.rosa] : [],
+    db_url: overrides.db_url || getDefaultDbUrl(),
   };
 }
 
-export function loadState() {
-  const base = defaultState();
+function normalizeProfile(raw) {
+  const base = defaultState(raw || {});
+  if (raw?.id) base.id = String(raw.id);
+  base.budget_iniziale = Number(base.budget_iniziale) || 500;
+  base.target_reparti = { ...DEFAULT_TARGET, ...(raw?.target_reparti || {}) };
+  base.preferiti = (raw?.preferiti || []).map(String);
+  base.wishlist = (raw?.wishlist || []).map(String);
+  base.rosa = Array.isArray(raw?.rosa) ? raw.rosa : [];
+  base.db_url = raw?.db_url || getDefaultDbUrl();
+  return base;
+}
+
+function defaultStore() {
+  const first = defaultState({ teamName: "Fanta 1" });
+  return { activeId: first.id, profiles: [first] };
+}
+
+function migrateLegacyIfNeeded() {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return base;
-    const saved = JSON.parse(raw);
-    if (!saved || typeof saved !== "object") return base;
-    const merged = { ...base, ...saved };
-    merged.target_reparti = {
-      ...DEFAULT_TARGET,
-      ...(saved.target_reparti || {}),
-    };
-    merged.preferiti = (merged.preferiti || []).map(String);
-    merged.wishlist = (merged.wishlist || []).map(String);
-    merged.rosa = Array.isArray(merged.rosa) ? merged.rosa : [];
-    merged.budget_iniziale = Number(merged.budget_iniziale) || 500;
-    merged.db_url = merged.db_url || getDefaultDbUrl();
-    return merged;
+    if (localStorage.getItem(STORE_KEY)) return;
+    const legacy = localStorage.getItem(LEGACY_KEY);
+    if (!legacy) return;
+    const saved = JSON.parse(legacy);
+    if (!saved || typeof saved !== "object") return;
+    const profile = normalizeProfile({ ...saved, teamName: saved.teamName || "Fanta 1" });
+    const store = { activeId: profile.id, profiles: [profile] };
+    localStorage.setItem(STORE_KEY, JSON.stringify(store));
   } catch {
-    return base;
+    /* ignore */
   }
 }
 
-export function saveState(state) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+export function loadStore() {
+  migrateLegacyIfNeeded();
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (!raw) return defaultStore();
+    const parsed = JSON.parse(raw);
+    if (!parsed?.profiles?.length) return defaultStore();
+    const profiles = parsed.profiles.map(normalizeProfile);
+    let activeId = parsed.activeId;
+    if (!profiles.some((p) => p.id === activeId)) {
+      activeId = profiles[0].id;
+    }
+    return { activeId, profiles };
+  } catch {
+    return defaultStore();
+  }
+}
+
+export function saveStore(store) {
+  localStorage.setItem(STORE_KEY, JSON.stringify(store));
+}
+
+/** @deprecated use loadStore + getActiveProfile — kept for clarity in app */
+export function loadState() {
+  return getActiveProfile(loadStore());
+}
+
+export function saveState(state, store = loadStore()) {
+  const next = upsertActiveProfile(store, state);
+  saveStore(next);
+  return next;
+}
+
+export function getActiveProfile(store) {
+  return (
+    store.profiles.find((p) => p.id === store.activeId) ||
+    store.profiles[0] ||
+    defaultState()
+  );
+}
+
+export function upsertActiveProfile(store, state) {
+  const active = normalizeProfile({ ...state, id: store.activeId || state.id });
+  const profiles = store.profiles.map((p) => (p.id === active.id ? active : p));
+  if (!profiles.some((p) => p.id === active.id)) {
+    profiles.push(active);
+  }
+  return { ...store, activeId: active.id, profiles };
+}
+
+export function listProfiles(store) {
+  return store.profiles.map((p) => ({
+    id: p.id,
+    label: p.leagueName ? `${p.teamName} · ${p.leagueName}` : p.teamName,
+  }));
+}
+
+export function switchProfile(store, profileId) {
+  if (!store.profiles.some((p) => p.id === profileId)) return store;
+  return { ...store, activeId: profileId };
+}
+
+export function createProfile(store, { teamName, leagueName } = {}) {
+  const profile = defaultState({
+    teamName: teamName || `Fanta ${store.profiles.length + 1}`,
+    leagueName: leagueName || "",
+  });
+  return {
+    activeId: profile.id,
+    profiles: [...store.profiles, profile],
+  };
+}
+
+export function deleteProfile(store, profileId) {
+  if (store.profiles.length <= 1) {
+    throw new Error("Serve almeno un profilo.");
+  }
+  const profiles = store.profiles.filter((p) => p.id !== profileId);
+  const activeId = store.activeId === profileId ? profiles[0].id : store.activeId;
+  return { activeId, profiles };
 }
 
 export function exportStateJson(state) {
@@ -65,15 +158,8 @@ export function importStateJson(text) {
   if (!parsed || typeof parsed !== "object") {
     throw new Error("File non valido");
   }
-  const merged = { ...defaultState(), ...parsed };
-  merged.target_reparti = {
-    ...DEFAULT_TARGET,
-    ...(parsed.target_reparti || {}),
-  };
-  merged.preferiti = (merged.preferiti || []).map(String);
-  merged.wishlist = (merged.wishlist || []).map(String);
-  merged.rosa = Array.isArray(merged.rosa) ? merged.rosa : [];
-  return merged;
+  // Import singolo profilo (anche se vecchio backup senza id)
+  return normalizeProfile({ ...parsed, id: parsed.id || uid() });
 }
 
 export function rosaIds(state) {
