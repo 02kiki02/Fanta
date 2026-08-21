@@ -604,7 +604,6 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 7182,Ndaba,D,DS/E,LEC,1,1,7,1,1,7,24,False,50,panchina,https://www.fantacalcio.it/serie-a/squadre/lecce/ndaba/7182/2025-26,2025-26
 2271,Nicolas,P,POR,PIS,1,1,1,1,1,1,16,,,,https://www.fantacalcio.it/serie-a/squadre/pisa/nicolas/2271/2025-26,2025-26
 7185,Nunziante,P,POR,UDI,1,1,1,1,1,1,0,,,,https://www.fantacalcio.it/serie-a/squadre/udinese/nunziante/7185/2025-26,2025-26
-7154,Odenthal,D,DC,SAS,3,1,7,3,1,7,0,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/sassuolo/odenthal/7154/2025-26,2025-26
 7271,Odogu,D,DC,MIL,2,1,5,2,1,5,0,,,,https://www.fantacalcio.it/serie-a/squadre/milan/odogu/7271/2025-26,2025-26
 6538,Onana J.,C,M/C,GEN,2,1,4,2,1,4,5,,,,https://www.fantacalcio.it/serie-a/squadre/genoa/onana-j/6538/2025-26,2025-26
 543,Padelli,P,POR,UDI,1,1,1,1,1,1,5,False,5,panchina,https://www.fantacalcio.it/serie-a/squadre/udinese/padelli/543/2025-26,2025-26
@@ -662,3 +661,4 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 5610,Vranckx,C,M/C,SAS,4,1,9,5,1,10,37,,,,https://www.fantacalcio.it/serie-a/squadre/sassuolo/vranckx/5610/2025-26,2025-26
 6464,Wieteska,D,DC,CAG,1,1,2,1,1,2,0,,,,https://www.fantacalcio.it/serie-a/squadre/cagliari/wieteska/6464/2025-26,2025-26
 7169,Zelezny,P,POR,ROM,1,1,1,1,1,1,0,,,,https://www.fantacalcio.it/serie-a/squadre/roma/zelezny/7169/2025-26,2025-26
+7154,Odenthal,D,DC,SAS,3,0,0,3,0,0,0,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/sassuolo/odenthal/7154/2025-26,2025-26

@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-08-21T06:56:40+00:00",
+    "updated_at": "2026-08-21T08:17:19+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -12111,26 +12111,6 @@
       "probabile_status": null
     },
     {
-      "id": "7154",
-      "nome": "Odenthal",
-      "ruolo": "D",
-      "ruolo_mantra": "DC",
-      "squadra": "SAS",
-      "team_id": "17",
-      "qi": 3,
-      "qa": 1,
-      "fvm": 7,
-      "qi_mantra": 3,
-      "qa_mantra": 1,
-      "fvm_mantra": 7,
-      "presenze_pct": 0,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/odenthal/7154/2025-26",
-      "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 90,
-      "probabile_status": "titolare"
-    },
-    {
       "id": "7271",
       "nome": "Odogu",
       "ruolo": "D",
@@ -13269,6 +13249,26 @@
       "probabile": null,
       "probabile_pct": null,
       "probabile_status": null
+    },
+    {
+      "id": "7154",
+      "nome": "Odenthal",
+      "ruolo": "D",
+      "ruolo_mantra": "DC",
+      "squadra": "SAS",
+      "team_id": "17",
+      "qi": 3,
+      "qa": 0,
+      "fvm": 0,
+      "qi_mantra": 3,
+      "qa_mantra": 0,
+      "fvm_mantra": 0,
+      "presenze_pct": 0,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/odenthal/7154/2025-26",
+      "season": "2025-26",
+      "probabile": true,
+      "probabile_pct": 90,
+      "probabile_status": "titolare"
     }
   ]
 }
