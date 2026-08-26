@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-08-26T13:05:52+00:00",
+    "updated_at": "2026-08-26T19:56:35+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -2087,7 +2087,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/david/5544/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 55,
+      "probabile_pct": 50,
       "probabile_status": "panchina"
     },
     {
@@ -5306,9 +5306,9 @@
       "presenze_pct": 32,
       "url": "https://www.fantacalcio.it/serie-a/squadre/lecce/berisha-m/6015/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": false,
+      "probabile_pct": 20,
+      "probabile_status": "panchina"
     },
     {
       "id": "7028",
@@ -5687,7 +5687,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/miretti/5813/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 30,
+      "probabile_pct": 15,
       "probabile_status": "panchina"
     },
     {
@@ -5707,7 +5707,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lecce/n-dri/7001/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 90,
+      "probabile_pct": 60,
       "probabile_status": "titolare"
     },
     {
@@ -5766,9 +5766,9 @@
       "presenze_pct": 74,
       "url": "https://www.fantacalcio.it/serie-a/squadre/torino/pedersen/6426/2025-26",
       "season": "2025-26",
-      "probabile": true,
+      "probabile": false,
       "probabile_pct": 60,
-      "probabile_status": "titolare"
+      "probabile_status": "panchina"
     },
     {
       "id": "6549",
@@ -9946,9 +9946,9 @@
       "presenze_pct": 32,
       "url": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/fortini/7069/2025-26",
       "season": "2025-26",
-      "probabile": false,
+      "probabile": true,
       "probabile_pct": 60,
-      "probabile_status": "panchina"
+      "probabile_status": "titolare"
     },
     {
       "id": "6632",
@@ -9969,26 +9969,6 @@
       "probabile": true,
       "probabile_pct": 90,
       "probabile_status": "titolare"
-    },
-    {
-      "id": "6537",
-      "nome": "Goglichidze",
-      "ruolo": "D",
-      "ruolo_mantra": "DD/DC",
-      "squadra": "UDI",
-      "team_id": "19",
-      "qi": 4,
-      "qa": 2,
-      "fvm": 7,
-      "qi_mantra": 4,
-      "qa_mantra": 2,
-      "fvm_mantra": 9,
-      "presenze_pct": 16,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/goglichidze/6537/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 25,
-      "probabile_status": "panchina"
     },
     {
       "id": "7248",
@@ -11567,7 +11547,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/como/goldaniga/418/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 20,
+      "probabile_pct": 15,
       "probabile_status": "panchina"
     },
     {
@@ -12187,7 +12167,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/padelli/543/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 5,
+      "probabile_pct": 1,
       "probabile_status": "panchina"
     },
     {
@@ -13269,6 +13249,26 @@
       "probabile": null,
       "probabile_pct": null,
       "probabile_status": null
+    },
+    {
+      "id": "6537",
+      "nome": "Goglichidze",
+      "ruolo": "D",
+      "ruolo_mantra": "DD/DC",
+      "squadra": "UDI",
+      "team_id": "19",
+      "qi": 4,
+      "qa": 0,
+      "fvm": 0,
+      "qi_mantra": 4,
+      "qa_mantra": 0,
+      "fvm_mantra": 0,
+      "presenze_pct": 16,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/goglichidze/6537/2025-26",
+      "season": "2025-26",
+      "probabile": false,
+      "probabile_pct": 25,
+      "probabile_status": "panchina"
     }
   ]
 }
