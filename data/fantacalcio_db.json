@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-08-26T07:00:01+00:00",
+    "updated_at": "2026-08-26T13:05:52+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -566,9 +566,9 @@
       "presenze_pct": 74,
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/leao/4510/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": false,
+      "probabile_pct": 30,
+      "probabile_status": "panchina"
     },
     {
       "id": "5734",
@@ -2447,7 +2447,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/genoa/vitinha-o/6164/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 80,
+      "probabile_pct": 55,
       "probabile_status": "titolare"
     },
     {
@@ -5826,9 +5826,9 @@
       "presenze_pct": 84,
       "url": "https://www.fantacalcio.it/serie-a/squadre/torino/prati/6424/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 35,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "7012",
@@ -6847,7 +6847,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/bertola/5820/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 75,
+      "probabile_pct": 60,
       "probabile_status": "titolare"
     },
     {
@@ -9969,6 +9969,26 @@
       "probabile": true,
       "probabile_pct": 90,
       "probabile_status": "titolare"
+    },
+    {
+      "id": "6537",
+      "nome": "Goglichidze",
+      "ruolo": "D",
+      "ruolo_mantra": "DD/DC",
+      "squadra": "UDI",
+      "team_id": "19",
+      "qi": 4,
+      "qa": 2,
+      "fvm": 7,
+      "qi_mantra": 4,
+      "qa_mantra": 2,
+      "fvm_mantra": 9,
+      "presenze_pct": 16,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/goglichidze/6537/2025-26",
+      "season": "2025-26",
+      "probabile": false,
+      "probabile_pct": 25,
+      "probabile_status": "panchina"
     },
     {
       "id": "7248",
@@ -13249,26 +13269,6 @@
       "probabile": null,
       "probabile_pct": null,
       "probabile_status": null
-    },
-    {
-      "id": "6537",
-      "nome": "Goglichidze",
-      "ruolo": "D",
-      "ruolo_mantra": "DD/DC",
-      "squadra": "UDI",
-      "team_id": "19",
-      "qi": 4,
-      "qa": 0,
-      "fvm": 0,
-      "qi_mantra": 4,
-      "qa_mantra": 0,
-      "fvm_mantra": 0,
-      "presenze_pct": 16,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/goglichidze/6537/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 25,
-      "probabile_status": "panchina"
     }
   ]
 }
