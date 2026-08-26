@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-08-25T18:49:30+00:00",
+    "updated_at": "2026-08-26T01:47:42+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -9971,6 +9971,26 @@
       "probabile_status": "titolare"
     },
     {
+      "id": "6537",
+      "nome": "Goglichidze",
+      "ruolo": "D",
+      "ruolo_mantra": "DD/DC",
+      "squadra": "UDI",
+      "team_id": "19",
+      "qi": 4,
+      "qa": 2,
+      "fvm": 7,
+      "qi_mantra": 4,
+      "qa_mantra": 2,
+      "fvm_mantra": 9,
+      "presenze_pct": 16,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/goglichidze/6537/2025-26",
+      "season": "2025-26",
+      "probabile": false,
+      "probabile_pct": 25,
+      "probabile_status": "panchina"
+    },
+    {
       "id": "7248",
       "nome": "Gorter",
       "ruolo": "C",
@@ -12347,7 +12367,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/pinsoglio/1930/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 5,
+      "probabile_pct": 1,
       "probabile_status": "panchina"
     },
     {
@@ -13249,26 +13269,6 @@
       "probabile": null,
       "probabile_pct": null,
       "probabile_status": null
-    },
-    {
-      "id": "6537",
-      "nome": "Goglichidze",
-      "ruolo": "D",
-      "ruolo_mantra": "DD/DC",
-      "squadra": "UDI",
-      "team_id": "19",
-      "qi": 4,
-      "qa": 0,
-      "fvm": 0,
-      "qi_mantra": 4,
-      "qa_mantra": 0,
-      "fvm_mantra": 0,
-      "presenze_pct": 16,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/goglichidze/6537/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 25,
-      "probabile_status": "panchina"
     }
   ]
 }
