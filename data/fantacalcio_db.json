@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-08-26T19:56:35+00:00",
+    "updated_at": "2026-08-27T08:51:32+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -1226,9 +1226,9 @@
       "presenze_pct": 89,
       "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/pinamonti/2038/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": false,
+      "probabile_pct": 60,
+      "probabile_status": "panchina"
     },
     {
       "id": "1852",
@@ -1767,7 +1767,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/noslin/6556/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 60,
+      "probabile_pct": 55,
       "probabile_status": "panchina"
     },
     {
@@ -4467,7 +4467,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/ratkov/7313/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 40,
+      "probabile_pct": 15,
       "probabile_status": "panchina"
     },
     {
@@ -6227,7 +6227,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/dia/5672/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 90,
+      "probabile_pct": 60,
       "probabile_status": "titolare"
     },
     {
@@ -9047,7 +9047,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/lazzari/2263/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 40,
+      "probabile_pct": 35,
       "probabile_status": "panchina"
     },
     {
@@ -11606,9 +11606,9 @@
       "presenze_pct": 21,
       "url": "https://www.fantacalcio.it/serie-a/squadre/torino/ilic/5007/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": false,
+      "probabile_pct": 30,
+      "probabile_status": "panchina"
     },
     {
       "id": "6551",
