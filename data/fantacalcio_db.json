@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-08-27T08:51:32+00:00",
+    "updated_at": "2026-08-27T22:09:29+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -326,9 +326,9 @@
       "presenze_pct": 76,
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/rabiot/2379/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 80,
-      "probabile_status": "titolare"
+      "probabile": false,
+      "probabile_pct": 60,
+      "probabile_status": "panchina"
     },
     {
       "id": "2137",
@@ -347,7 +347,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/atalanta/scamacca/2137/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 55,
+      "probabile_pct": 80,
       "probabile_status": "titolare"
     },
     {
@@ -566,9 +566,9 @@
       "presenze_pct": 74,
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/leao/4510/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 30,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "5734",
@@ -767,7 +767,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/mckennie/4973/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 90,
+      "probabile_pct": 60,
       "probabile_status": "titolare"
     },
     {
@@ -786,9 +786,9 @@
       "presenze_pct": 87,
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/modric/2606/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 80,
-      "probabile_status": "titolare"
+      "probabile": false,
+      "probabile_pct": 60,
+      "probabile_status": "panchina"
     },
     {
       "id": "4728",
@@ -826,9 +826,9 @@
       "presenze_pct": 97,
       "url": "https://www.fantacalcio.it/serie-a/squadre/parma/pellegrino-m/7023/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 60,
-      "probabile_status": "panchina"
+      "probabile": true,
+      "probabile_pct": 90,
+      "probabile_status": "titolare"
     },
     {
       "id": "6572",
@@ -887,7 +887,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/mandragora/1933/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 50,
+      "probabile_pct": 55,
       "probabile_status": "panchina"
     },
     {
@@ -1027,7 +1027,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/atalanta/de-ketelaere/5995/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 80,
+      "probabile_pct": 60,
       "probabile_status": "titolare"
     },
     {
@@ -1046,9 +1046,9 @@
       "presenze_pct": 71,
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/isaksen/6398/2025-26",
       "season": "2025-26",
-      "probabile": false,
+      "probabile": true,
       "probabile_pct": 60,
-      "probabile_status": "panchina"
+      "probabile_status": "titolare"
     },
     {
       "id": "2097",
@@ -1066,9 +1066,9 @@
       "presenze_pct": 68,
       "url": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/kean/2097/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 55,
-      "probabile_status": "titolare"
+      "probabile": false,
+      "probabile_pct": 50,
+      "probabile_status": "panchina"
     },
     {
       "id": "6893",
@@ -1547,7 +1547,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/rowe/6844/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 75,
+      "probabile_pct": 55,
       "probabile_status": "titolare"
     },
     {
@@ -1567,7 +1567,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/saelemaekers/4892/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 60,
+      "probabile_pct": 55,
       "probabile_status": "panchina"
     },
     {
@@ -1587,7 +1587,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/atalanta/scalvini/5526/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 80,
+      "probabile_pct": 75,
       "probabile_status": "titolare"
     },
     {
@@ -2087,7 +2087,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/david/5544/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 50,
+      "probabile_pct": 35,
       "probabile_status": "panchina"
     },
     {
@@ -2127,7 +2127,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/atalanta/ederson-d-s/5792/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 85,
+      "probabile_pct": 75,
       "probabile_status": "titolare"
     },
     {
@@ -2147,7 +2147,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/cagliari/gaetano/4364/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 80,
+      "probabile_pct": 55,
       "probabile_status": "titolare"
     },
     {
@@ -2186,9 +2186,9 @@
       "presenze_pct": 84,
       "url": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/gudmundsson-a/5800/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 60,
-      "probabile_status": "titolare"
+      "probabile": false,
+      "probabile_pct": 55,
+      "probabile_status": "panchina"
     },
     {
       "id": "4186",
@@ -2527,7 +2527,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/cambiaghi/4436/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 55,
+      "probabile_pct": 60,
       "probabile_status": "panchina"
     },
     {
@@ -2787,7 +2787,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/atalanta/zappacosta/554/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 60,
+      "probabile_pct": 85,
       "probabile_status": "titolare"
     },
     {
@@ -2886,9 +2886,9 @@
       "presenze_pct": 74,
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/cancellieri/5500/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 60,
-      "probabile_status": "titolare"
+      "probabile": false,
+      "probabile_pct": 55,
+      "probabile_status": "panchina"
     },
     {
       "id": "333",
@@ -3126,9 +3126,9 @@
       "presenze_pct": 74,
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/ricci-s/5453/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 20,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "4409",
@@ -3386,9 +3386,9 @@
       "presenze_pct": 47,
       "url": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/brescianini/4947/2025-26",
       "season": "2025-26",
-      "probabile": false,
+      "probabile": true,
       "probabile_pct": 60,
-      "probabile_status": "panchina"
+      "probabile_status": "titolare"
     },
     {
       "id": "5877",
@@ -3467,7 +3467,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/dodò/5885/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 50,
+      "probabile_pct": 55,
       "probabile_status": "panchina"
     },
     {
@@ -3526,9 +3526,9 @@
       "presenze_pct": 66,
       "url": "https://www.fantacalcio.it/serie-a/squadre/genoa/ekhator/6822/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": false,
+      "probabile_pct": 50,
+      "probabile_status": "panchina"
     },
     {
       "id": "6365",
@@ -3747,7 +3747,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/loftus-cheek/4199/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 60,
+      "probabile_pct": 55,
       "probabile_status": "titolare"
     },
     {
@@ -4087,7 +4087,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/atalanta/bernasconi/7219/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 80,
+      "probabile_pct": 90,
       "probabile_status": "titolare"
     },
     {
@@ -4347,7 +4347,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/moro-n/6054/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 40,
+      "probabile_pct": 60,
       "probabile_status": "panchina"
     },
     {
@@ -5027,7 +5027,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/pobega/5298/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 55,
+      "probabile_pct": 40,
       "probabile_status": "panchina"
     },
     {
@@ -5686,9 +5686,9 @@
       "presenze_pct": 39,
       "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/miretti/5813/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 15,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "7001",
@@ -6167,7 +6167,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/de-winter/5739/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 80,
+      "probabile_pct": 70,
       "probabile_status": "titolare"
     },
     {
@@ -6286,9 +6286,9 @@
       "presenze_pct": 58,
       "url": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/fabbian/6206/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 25,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "6046",
@@ -6347,7 +6347,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/joao-mario/7175/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 70,
+      "probabile_pct": 60,
       "probabile_status": "titolare"
     },
     {
@@ -6387,7 +6387,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/atalanta/kossounou/5578/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 85,
+      "probabile_pct": 75,
       "probabile_status": "titolare"
     },
     {
@@ -6707,7 +6707,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/cagliari/zappa/4461/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 40,
+      "probabile_pct": 15,
       "probabile_status": "panchina"
     },
     {
@@ -7066,9 +7066,9 @@
       "presenze_pct": 42,
       "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/gatti/5831/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": false,
+      "probabile_pct": 20,
+      "probabile_status": "panchina"
     },
     {
       "id": "27",
@@ -7366,9 +7366,9 @@
       "presenze_pct": 42,
       "url": "https://www.fantacalcio.it/serie-a/squadre/atalanta/musah/5295/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 60,
-      "probabile_status": "panchina"
+      "probabile": true,
+      "probabile_pct": 85,
+      "probabile_status": "titolare"
     },
     {
       "id": "7018",
@@ -7966,9 +7966,9 @@
       "presenze_pct": 32,
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/jashari/7203/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 40,
-      "probabile_status": "panchina"
+      "probabile": true,
+      "probabile_pct": 60,
+      "probabile_status": "titolare"
     },
     {
       "id": "256",
@@ -8466,9 +8466,9 @@
       "presenze_pct": 47,
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/vitik/7068/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 55,
-      "probabile_status": "titolare"
+      "probabile": false,
+      "probabile_pct": 35,
+      "probabile_status": "panchina"
     },
     {
       "id": "6575",
@@ -8567,7 +8567,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/belahyane/6191/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 55,
+      "probabile_pct": 60,
       "probabile_status": "panchina"
     },
     {
@@ -8787,7 +8787,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/douglas-luiz/4911/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 60,
+      "probabile_pct": 80,
       "probabile_status": "titolare"
     },
     {
@@ -8826,9 +8826,9 @@
       "presenze_pct": 0,
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/el-azzouzi/6225/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 55,
-      "probabile_status": "titolare"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "4982",
@@ -9767,7 +9767,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lecce/camarda/6519/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 35,
+      "probabile_pct": 30,
       "probabile_status": "panchina"
     },
     {
@@ -9907,7 +9907,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/estupinan/5273/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 60,
+      "probabile_pct": 55,
       "probabile_status": "titolare"
     },
     {
@@ -10066,9 +10066,9 @@
       "presenze_pct": 16,
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/helland/7326/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 35,
-      "probabile_status": "panchina"
+      "probabile": true,
+      "probabile_pct": 70,
+      "probabile_status": "titolare"
     },
     {
       "id": "4423",
@@ -10607,7 +10607,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/rugani/294/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 20,
+      "probabile_pct": 15,
       "probabile_status": "panchina"
     },
     {
@@ -10747,7 +10747,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/roma/ziolkowski/7260/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 20,
+      "probabile_pct": 15,
       "probabile_status": "panchina"
     },
     {
