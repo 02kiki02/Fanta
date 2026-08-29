@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-08-28T22:09:07+00:00",
+    "updated_at": "2026-08-29T06:49:41+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -2948,26 +2948,6 @@
       "season": "2025-26",
       "probabile": false,
       "probabile_pct": 60,
-      "probabile_status": "panchina"
-    },
-    {
-      "id": "4179",
-      "nome": "Gonzalez N.",
-      "ruolo": "A",
-      "ruolo_mantra": "W/A",
-      "squadra": "JUV",
-      "team_id": "10",
-      "qi": 12,
-      "qa": 11,
-      "fvm": 15,
-      "qi_mantra": 12,
-      "qa_mantra": 11,
-      "fvm_mantra": 15,
-      "presenze_pct": 0,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/gonzalez-n/4179/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 35,
       "probabile_status": "panchina"
     },
     {
@@ -13268,6 +13248,26 @@
       "season": "2025-26",
       "probabile": false,
       "probabile_pct": 30,
+      "probabile_status": "panchina"
+    },
+    {
+      "id": "4179",
+      "nome": "Gonzalez N.",
+      "ruolo": "A",
+      "ruolo_mantra": "W/A",
+      "squadra": "JUV",
+      "team_id": "10",
+      "qi": 12,
+      "qa": 0,
+      "fvm": 0,
+      "qi_mantra": 12,
+      "qa_mantra": 0,
+      "fvm_mantra": 0,
+      "presenze_pct": 0,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/gonzalez-n/4179/2025-26",
+      "season": "2025-26",
+      "probabile": false,
+      "probabile_pct": 35,
       "probabile_status": "panchina"
     }
   ]
