@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-09-02T16:26:05+00:00",
+    "updated_at": "2026-09-02T20:55:18+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -2327,7 +2327,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/roma/pellegrini-lo/530/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 10,
+      "probabile_pct": 25,
       "probabile_status": "panchina"
     },
     {
@@ -2366,9 +2366,9 @@
       "presenze_pct": 50,
       "url": "https://www.fantacalcio.it/serie-a/squadre/roma/rensch/6986/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": false,
+      "probabile_pct": 40,
+      "probabile_status": "panchina"
     },
     {
       "id": "2428",
@@ -4486,9 +4486,9 @@
       "presenze_pct": 32,
       "url": "https://www.fantacalcio.it/serie-a/squadre/juventus/zhegrova/5761/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 15,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "4870",
@@ -12467,7 +12467,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/cagliari/radunovic/3/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 1,
+      "probabile_pct": 5,
       "probabile_status": "panchina"
     },
     {
@@ -12827,7 +12827,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/cagliari/sherri/6650/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 5,
+      "probabile_pct": 1,
       "probabile_status": "panchina"
     },
     {
