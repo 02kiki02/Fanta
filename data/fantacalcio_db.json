@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-09-06T04:13:33+00:00",
+    "updated_at": "2026-09-06T10:44:02+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -9979,10 +9979,10 @@
       "team_id": "19",
       "qi": 4,
       "qa": 2,
-      "fvm": 5,
+      "fvm": 7,
       "qi_mantra": 4,
-      "qa_mantra": 3,
-      "fvm_mantra": 7,
+      "qa_mantra": 2,
+      "fvm_mantra": 9,
       "presenze_pct": 16,
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/goglichidze/6537/2025-26",
       "season": "2025-26",
