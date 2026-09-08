@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-09-08T11:03:42+00:00",
+    "updated_at": "2026-09-08T16:29:05+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -5666,9 +5666,9 @@
       "presenze_pct": 50,
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/miller-l/7208/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 60,
-      "probabile_status": "panchina"
+      "probabile": true,
+      "probabile_pct": 80,
+      "probabile_status": "titolare"
     },
     {
       "id": "5813",
@@ -5806,9 +5806,9 @@
       "presenze_pct": 79,
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/piotrowski/7198/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 55,
-      "probabile_status": "titolare"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "6424",
@@ -6847,7 +6847,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/bertola/5820/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 50,
+      "probabile_pct": 60,
       "probabile_status": "panchina"
     },
     {
@@ -7869,26 +7869,6 @@
       "probabile": true,
       "probabile_pct": 90,
       "probabile_status": "titolare"
-    },
-    {
-      "id": "4930",
-      "nome": "Ghion",
-      "ruolo": "C",
-      "ruolo_mantra": "M/C",
-      "squadra": "SAS",
-      "team_id": "17",
-      "qi": 4,
-      "qa": 4,
-      "fvm": 9,
-      "qi_mantra": 4,
-      "qa_mantra": 4,
-      "fvm_mantra": 12,
-      "presenze_pct": 0,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 50,
-      "probabile_status": "panchina"
     },
     {
       "id": "5688",
@@ -9427,7 +9407,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/zarraga/6212/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 55,
+      "probabile_pct": 60,
       "probabile_status": "panchina"
     },
     {
@@ -12427,7 +12407,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/przyborek/7345/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 25,
+      "probabile_pct": 20,
       "probabile_status": "panchina"
     },
     {
@@ -13269,6 +13249,26 @@
       "probabile": null,
       "probabile_pct": null,
       "probabile_status": null
+    },
+    {
+      "id": "4930",
+      "nome": "Ghion",
+      "ruolo": "C",
+      "ruolo_mantra": "M/C",
+      "squadra": "SAS",
+      "team_id": "17",
+      "qi": 4,
+      "qa": 0,
+      "fvm": 0,
+      "qi_mantra": 4,
+      "qa_mantra": 0,
+      "fvm_mantra": 0,
+      "presenze_pct": 0,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26",
+      "season": "2025-26",
+      "probabile": false,
+      "probabile_pct": 50,
+      "probabile_status": "panchina"
     }
   ]
 }
