@@ -391,7 +391,6 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 5851,Doig,D,DS/E,SAS,6,4,10,6,4,10,71,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/sassuolo/doig/5851/2025-26,2025-26
 7130,Folino,D,DC,CRE,4,4,8,4,4,8,29,,,,https://www.fantacalcio.it/serie-a/squadre/cremonese/folino/7130/2025-26,2025-26
 2848,Frattesi,C,C/T,INT,14,4,10,14,4,10,37,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/inter/frattesi/2848/2025-26,2025-26
-4930,Ghion,C,M/C,SAS,4,4,9,4,4,12,0,False,50,panchina,https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26,2025-26
 5688,Harroui,C,W/T,VER,7,4,10,7,4,12,45,,,,https://www.fantacalcio.it/serie-a/squadre/verona/harroui/5688/2025-26,2025-26
 7212,Heggem,D,DS/DC,BOL,4,4,12,5,4,14,66,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/bologna/heggem/7212/2025-26,2025-26
 785,Immobile,A,PC,BOL,19,4,15,19,4,12,16,,,,https://www.fantacalcio.it/serie-a/squadre/bologna/immobile/785/2025-26,2025-26
@@ -451,7 +450,6 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 6459,Karlsson,A,W/A,BOL,3,3,7,3,3,7,0,,,,https://www.fantacalcio.it/serie-a/squadre/bologna/karlsson/6459/2025-26,2025-26
 2263,Lazzari,D,DD/E,LAZ,4,3,9,4,3,9,45,False,40,panchina,https://www.fantacalcio.it/serie-a/squadre/lazio/lazzari/2263/2025-26,2025-26
 7254,Lorran,C,T,PIS,7,3,8,6,3,8,11,,,,https://www.fantacalcio.it/serie-a/squadre/pisa/lorran/7254/2025-26,2025-26
-5850,Lovric,C,C,VER,9,3,9,9,3,9,26,False,25,panchina,https://www.fantacalcio.it/serie-a/squadre/verona/lovric/5850/2025-26,2025-26
 5297,Luvumbo,A,A,CAG,12,3,10,12,3,10,26,,,,https://www.fantacalcio.it/serie-a/squadre/cagliari/luvumbo/5297/2025-26,2025-26
 6809,Marianucci,D,DC,TOR,3,3,8,3,3,8,29,,,,https://www.fantacalcio.it/serie-a/squadre/torino/marianucci/6809/2025-26,2025-26
 6984,Ondrejka,C,W/A,PAR,13,3,9,12,3,9,39,,,,https://www.fantacalcio.it/serie-a/squadre/parma/ondrejka/6984/2025-26,2025-26
@@ -524,7 +522,6 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 6977,Otoa,D,DC,GEN,2,2,9,2,2,9,26,False,35,panchina,https://www.fantacalcio.it/serie-a/squadre/genoa/otoa/6977/2025-26,2025-26
 6925,Palma,D,DC,UDI,1,2,4,1,2,4,11,,,,https://www.fantacalcio.it/serie-a/squadre/udinese/palma/6925/2025-26,2025-26
 5857,Pickel,C,M/C,CRE,2,2,3,2,2,3,0,,,,https://www.fantacalcio.it/serie-a/squadre/cremonese/pickel/5857/2025-26,2025-26
-1842,Pierini,A,A,SAS,5,2,8,5,2,8,11,False,15,panchina,https://www.fantacalcio.it/serie-a/squadre/sassuolo/pierini/1842/2025-26,2025-26
 5860,Ravanelli,D,DC,CRE,2,2,3,2,2,3,0,,,,https://www.fantacalcio.it/serie-a/squadre/cremonese/ravanelli/5860/2025-26,2025-26
 6804,Richardson,C,M/C,FIO,4,2,8,4,2,9,3,,,,https://www.fantacalcio.it/serie-a/squadre/fiorentina/richardson/6804/2025-26,2025-26
 4459,Rovella,C,M/C,LAZ,8,2,8,9,2,10,29,,,,https://www.fantacalcio.it/serie-a/squadre/lazio/rovella/4459/2025-26,2025-26
@@ -542,7 +539,6 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 388,Albiol,D,DC,PIS,5,1,8,5,1,8,21,,,,https://www.fantacalcio.it/serie-a/squadre/pisa/albiol/388/2025-26,2025-26
 2553,Alli,C,T,COM,1,1,1,1,1,1,0,,,,https://www.fantacalcio.it/serie-a/squadre/como/alli/2553/2025-26,2025-26
 7151,Arena,C,W/T,PIS,1,1,5,1,1,5,0,,,,https://www.fantacalcio.it/serie-a/squadre/pisa/arena/7151/2025-26,2025-26
-7277,Arena A.,A,PC,ROM,1,1,1,1,1,1,3,False,15,panchina,https://www.fantacalcio.it/serie-a/squadre/roma/arena-a/7277/2025-26,2025-26
 7027,Azon,A,PC,COM,1,1,5,1,1,3,0,,,,https://www.fantacalcio.it/serie-a/squadre/como/azon/7027/2025-26,2025-26
 7262,Balentien,A,A,MIL,1,1,1,1,1,1,0,,,,https://www.fantacalcio.it/serie-a/squadre/milan/balentien/7262/2025-26,2025-26
 5516,Bianco,C,M/C,FIO,1,1,2,1,1,3,0,,,,https://www.fantacalcio.it/serie-a/squadre/fiorentina/bianco/5516/2025-26,2025-26
@@ -642,7 +638,6 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 6991,Siegrist,P,POR,GEN,1,1,1,1,1,1,0,,,,https://www.fantacalcio.it/serie-a/squadre/genoa/siegrist/6991/2025-26,2025-26
 2211,Silvestri,P,POR,CRE,1,1,1,1,1,1,11,,,,https://www.fantacalcio.it/serie-a/squadre/cremonese/silvestri/2211/2025-26,2025-26
 7363,Siviero,P,POR,TOR,1,1,1,1,1,1,0,False,1,panchina,https://www.fantacalcio.it/serie-a/squadre/torino/siviero/7363/2025-26,2025-26
-7159,Skjellerup,A,PC,SAS,1,1,1,1,1,1,0,False,15,panchina,https://www.fantacalcio.it/serie-a/squadre/sassuolo/skjellerup/7159/2025-26,2025-26
 219,Sommariva,P,POR,GEN,1,1,1,1,1,1,5,False,1,panchina,https://www.fantacalcio.it/serie-a/squadre/genoa/sommariva/219/2025-26,2025-26
 4,Sportiello,P,POR,ATA,1,1,1,1,1,1,3,False,5,panchina,https://www.fantacalcio.it/serie-a/squadre/atalanta/sportiello/4/2025-26,2025-26
 7135,Stanciu,C,C/T,GEN,8,1,5,8,1,5,11,,,,https://www.fantacalcio.it/serie-a/squadre/genoa/stanciu/7135/2025-26,2025-26
@@ -661,4 +656,9 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 5610,Vranckx,C,M/C,SAS,4,1,9,5,1,10,37,,,,https://www.fantacalcio.it/serie-a/squadre/sassuolo/vranckx/5610/2025-26,2025-26
 6464,Wieteska,D,DC,CAG,1,1,2,1,1,2,0,,,,https://www.fantacalcio.it/serie-a/squadre/cagliari/wieteska/6464/2025-26,2025-26
 7169,Zelezny,P,POR,ROM,1,1,1,1,1,1,0,,,,https://www.fantacalcio.it/serie-a/squadre/roma/zelezny/7169/2025-26,2025-26
+7277,Arena A.,A,PC,ROM,1,0,0,1,0,0,3,False,15,panchina,https://www.fantacalcio.it/serie-a/squadre/roma/arena-a/7277/2025-26,2025-26
 6230,Dossena,D,DC,CAG,4,0,0,4,0,0,29,False,15,panchina,https://www.fantacalcio.it/serie-a/squadre/cagliari/dossena/6230/2025-26,2025-26
+4930,Ghion,C,M/C,SAS,4,0,0,4,0,0,0,False,50,panchina,https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26,2025-26
+5850,Lovric,C,C,VER,9,0,0,9,0,0,26,False,25,panchina,https://www.fantacalcio.it/serie-a/squadre/verona/lovric/5850/2025-26,2025-26
+1842,Pierini,A,A,SAS,5,0,0,5,0,0,11,False,15,panchina,https://www.fantacalcio.it/serie-a/squadre/sassuolo/pierini/1842/2025-26,2025-26
+7159,Skjellerup,A,PC,SAS,1,0,0,1,0,0,0,False,15,panchina,https://www.fantacalcio.it/serie-a/squadre/sassuolo/skjellerup/7159/2025-26,2025-26
