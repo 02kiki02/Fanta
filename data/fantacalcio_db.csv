@@ -143,7 +143,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 2832,Boga,A,W/A,JUV,6,11,37,7,11,40,34,,,,https://www.fantacalcio.it/serie-a/squadre/juventus/boga/2832/2025-26,2025-26
 6243,Borrelli,A,PC,CAG,5,11,15,4,11,12,68,,,,https://www.fantacalcio.it/serie-a/squadre/cagliari/borrelli/6243/2025-26,2025-26
 5500,Cancellieri,A,W/A,LAZ,3,11,12,3,11,15,74,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/lazio/cancellieri/5500/2025-26,2025-26
-333,Cataldi,C,M/C,LAZ,5,11,17,5,11,22,71,,,,https://www.fantacalcio.it/serie-a/squadre/lazio/cataldi/333/2025-26,2025-26
+333,Cataldi,C,M/C,LAZ,5,11,17,5,11,22,71,False,15,panchina,https://www.fantacalcio.it/serie-a/squadre/lazio/cataldi/333/2025-26,2025-26
 6439,Cheddira,A,PC,LEC,4,11,23,4,11,20,63,,,,https://www.fantacalcio.it/serie-a/squadre/lecce/cheddira/6439/2025-26,2025-26
 4465,Fagioli,C,C,FIO,8,11,35,8,11,35,87,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/fiorentina/fagioli/4465/2025-26,2025-26
 4179,Gonzalez N.,A,W/A,JUV,12,11,15,12,11,15,0,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/juventus/gonzalez-n/4179/2025-26,2025-26
@@ -308,7 +308,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 6643,Dallinga,A,PC,BOL,10,6,9,10,6,9,50,,,,https://www.fantacalcio.it/serie-a/squadre/bologna/dallinga/6643/2025-26,2025-26
 5739,De Winter,D,DD/DC,MIL,8,6,10,9,6,12,63,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/milan/de-winter/5739/2025-26,2025-26
 1871,Deiola,C,M/C,CAG,5,6,11,5,6,14,53,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/cagliari/deiola/1871/2025-26,2025-26
-6629,Dele-Bashiru,C,C/T,LAZ,11,6,14,11,6,14,55,False,25,panchina,https://www.fantacalcio.it/serie-a/squadre/lazio/dele-bashiru/6629/2025-26,2025-26
+6629,Dele-Bashiru,C,C/T,LAZ,11,6,14,11,6,14,55,,,,https://www.fantacalcio.it/serie-a/squadre/lazio/dele-bashiru/6629/2025-26,2025-26
 5672,Dia,A,PC,LAZ,20,6,9,20,6,9,66,,,,https://www.fantacalcio.it/serie-a/squadre/lazio/dia/5672/2025-26,2025-26
 7352,Edmundsson,D,DC,VER,2,6,12,2,6,12,39,,,,https://www.fantacalcio.it/serie-a/squadre/verona/edmundsson/7352/2025-26,2025-26
 7342,Elphege,A,PC,PAR,1,6,18,1,6,15,21,False,40,panchina,https://www.fantacalcio.it/serie-a/squadre/parma/elphege/7342/2025-26,2025-26
