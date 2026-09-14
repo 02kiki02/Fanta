@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-09-13T20:38:28+00:00",
+    "updated_at": "2026-09-14T04:34:51+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -27,7 +27,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/inter/martinez-l/2764/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 75,
+      "probabile_pct": 80,
       "probabile_status": "titolare"
     },
     {
@@ -247,7 +247,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/inter/calhanoglu/2194/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 90,
+      "probabile_pct": 55,
       "probabile_status": "titolare"
     },
     {
@@ -607,7 +607,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/inter/zielinski/152/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 55,
+      "probabile_pct": 75,
       "probabile_status": "titolare"
     },
     {
@@ -687,7 +687,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/inter/barella/1870/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 60,
+      "probabile_pct": 75,
       "probabile_status": "titolare"
     },
     {
@@ -1967,7 +1967,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/inter/bastoni/2120/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 70,
+      "probabile_pct": 80,
       "probabile_status": "titolare"
     },
     {
@@ -3407,7 +3407,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/inter/carlos-augusto/5877/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 70,
+      "probabile_pct": 80,
       "probabile_status": "titolare"
     },
     {
@@ -5367,7 +5367,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/inter/diouf/6274/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 70,
+      "probabile_pct": 85,
       "probabile_status": "titolare"
     },
     {
@@ -7227,7 +7227,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/inter/martinez-jo/5116/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 75,
+      "probabile_pct": 85,
       "probabile_status": "titolare"
     },
     {
@@ -7849,6 +7849,26 @@
       "probabile": true,
       "probabile_pct": 100,
       "probabile_status": "titolare"
+    },
+    {
+      "id": "4930",
+      "nome": "Ghion",
+      "ruolo": "C",
+      "ruolo_mantra": "M/C",
+      "squadra": "SAS",
+      "team_id": "17",
+      "qi": 4,
+      "qa": 4,
+      "fvm": 9,
+      "qi_mantra": 4,
+      "qa_mantra": 4,
+      "fvm_mantra": 12,
+      "presenze_pct": 0,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26",
+      "season": "2025-26",
+      "probabile": false,
+      "probabile_pct": 35,
+      "probabile_status": "panchina"
     },
     {
       "id": "5688",
@@ -9029,6 +9049,26 @@
       "probabile": null,
       "probabile_pct": null,
       "probabile_status": null
+    },
+    {
+      "id": "5850",
+      "nome": "Lovric",
+      "ruolo": "C",
+      "ruolo_mantra": "C",
+      "squadra": "VER",
+      "team_id": "20",
+      "qi": 9,
+      "qa": 3,
+      "fvm": 9,
+      "qi_mantra": 9,
+      "qa_mantra": 3,
+      "fvm_mantra": 9,
+      "presenze_pct": 26,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/verona/lovric/5850/2025-26",
+      "season": "2025-26",
+      "probabile": false,
+      "probabile_pct": 25,
+      "probabile_status": "panchina"
     },
     {
       "id": "5297",
@@ -10471,6 +10511,26 @@
       "probabile_status": null
     },
     {
+      "id": "1842",
+      "nome": "Pierini",
+      "ruolo": "A",
+      "ruolo_mantra": "A",
+      "squadra": "SAS",
+      "team_id": "17",
+      "qi": 5,
+      "qa": 2,
+      "fvm": 8,
+      "qi_mantra": 5,
+      "qa_mantra": 2,
+      "fvm_mantra": 8,
+      "presenze_pct": 11,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/pierini/1842/2025-26",
+      "season": "2025-26",
+      "probabile": false,
+      "probabile_pct": 15,
+      "probabile_status": "panchina"
+    },
+    {
       "id": "5860",
       "nome": "Ravanelli",
       "ruolo": "D",
@@ -10805,6 +10865,26 @@
       "fvm_mantra": 5,
       "presenze_pct": 0,
       "url": "https://www.fantacalcio.it/serie-a/squadre/pisa/arena/7151/2025-26",
+      "season": "2025-26",
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
+    },
+    {
+      "id": "7277",
+      "nome": "Arena A.",
+      "ruolo": "A",
+      "ruolo_mantra": "PC",
+      "squadra": "ROM",
+      "team_id": "15",
+      "qi": 1,
+      "qa": 1,
+      "fvm": 1,
+      "qi_mantra": 1,
+      "qa_mantra": 1,
+      "fvm_mantra": 1,
+      "presenze_pct": 3,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/roma/arena-a/7277/2025-26",
       "season": "2025-26",
       "probabile": null,
       "probabile_pct": null,
@@ -13151,26 +13231,6 @@
       "probabile_status": null
     },
     {
-      "id": "7277",
-      "nome": "Arena A.",
-      "ruolo": "A",
-      "ruolo_mantra": "PC",
-      "squadra": "ROM",
-      "team_id": "15",
-      "qi": 1,
-      "qa": 0,
-      "fvm": 0,
-      "qi_mantra": 1,
-      "qa_mantra": 0,
-      "fvm_mantra": 0,
-      "presenze_pct": 3,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/roma/arena-a/7277/2025-26",
-      "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
-    },
-    {
       "id": "6230",
       "nome": "Dossena",
       "ruolo": "D",
@@ -13185,66 +13245,6 @@
       "fvm_mantra": 0,
       "presenze_pct": 29,
       "url": "https://www.fantacalcio.it/serie-a/squadre/cagliari/dossena/6230/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 15,
-      "probabile_status": "panchina"
-    },
-    {
-      "id": "4930",
-      "nome": "Ghion",
-      "ruolo": "C",
-      "ruolo_mantra": "M/C",
-      "squadra": "SAS",
-      "team_id": "17",
-      "qi": 4,
-      "qa": 0,
-      "fvm": 0,
-      "qi_mantra": 4,
-      "qa_mantra": 0,
-      "fvm_mantra": 0,
-      "presenze_pct": 0,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 35,
-      "probabile_status": "panchina"
-    },
-    {
-      "id": "5850",
-      "nome": "Lovric",
-      "ruolo": "C",
-      "ruolo_mantra": "C",
-      "squadra": "VER",
-      "team_id": "20",
-      "qi": 9,
-      "qa": 0,
-      "fvm": 0,
-      "qi_mantra": 9,
-      "qa_mantra": 0,
-      "fvm_mantra": 0,
-      "presenze_pct": 26,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/verona/lovric/5850/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 25,
-      "probabile_status": "panchina"
-    },
-    {
-      "id": "1842",
-      "nome": "Pierini",
-      "ruolo": "A",
-      "ruolo_mantra": "A",
-      "squadra": "SAS",
-      "team_id": "17",
-      "qi": 5,
-      "qa": 0,
-      "fvm": 0,
-      "qi_mantra": 5,
-      "qa_mantra": 0,
-      "fvm_mantra": 0,
-      "presenze_pct": 11,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/pierini/1842/2025-26",
       "season": "2025-26",
       "probabile": false,
       "probabile_pct": 15,
