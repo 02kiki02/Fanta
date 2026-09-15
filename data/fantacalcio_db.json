@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-09-15T16:46:49+00:00",
+    "updated_at": "2026-09-15T21:09:37+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -3167,7 +3167,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/skorupski/133/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 70,
+      "probabile_pct": 55,
       "probabile_status": "titolare"
     },
     {
@@ -3827,7 +3827,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/miranda-j/4734/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 60,
+      "probabile_pct": 70,
       "probabile_status": "titolare"
     },
     {
@@ -6487,7 +6487,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/pessina-mas/7172/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 30,
+      "probabile_pct": 45,
       "probabile_status": "panchina"
     },
     {

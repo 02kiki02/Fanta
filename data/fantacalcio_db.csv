@@ -156,7 +156,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 2814,Provedel,P,POR,LAZ,12,11,15,12,11,15,71,False,5,panchina,https://www.fantacalcio.it/serie-a/squadre/lazio/provedel/2814/2025-26,2025-26
 5453,Ricci S.,C,M/C,MIL,10,11,13,11,11,15,74,False,50,panchina,https://www.fantacalcio.it/serie-a/squadre/milan/ricci-s/5453/2025-26,2025-26
 4409,Rrahmani,D,DC,NAP,11,11,45,11,11,45,55,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/napoli/rrahmani/4409/2025-26,2025-26
-133,Skorupski,P,POR,BOL,10,11,14,10,11,14,47,True,70,titolare,https://www.fantacalcio.it/serie-a/squadre/bologna/skorupski/133/2025-26,2025-26
+133,Skorupski,P,POR,BOL,10,11,14,10,11,14,47,True,55,titolare,https://www.fantacalcio.it/serie-a/squadre/bologna/skorupski/133/2025-26,2025-26
 7070,Sucic P.,C,C,INT,9,11,21,9,11,21,74,False,60,panchina,https://www.fantacalcio.it/serie-a/squadre/inter/sucic-p/7070/2025-26,2025-26
 6641,Suzuki,P,POR,PAR,7,11,8,7,11,8,53,,,,https://www.fantacalcio.it/serie-a/squadre/parma/suzuki/6641/2025-26,2025-26
 5862,Valeri,D,DS/E,PAR,10,11,22,10,11,22,89,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/parma/valeri/5862/2025-26,2025-26
@@ -189,7 +189,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 4896,Maldini,C,T/A,LAZ,9,10,20,8,11,20,47,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/lazio/maldini/4896/2025-26,2025-26
 2593,Martin,D,DS/E,GEN,10,10,11,10,10,11,76,,,,https://www.fantacalcio.it/serie-a/squadre/genoa/martin/2593/2025-26,2025-26
 1976,Mazzitelli,C,M/C,CAG,5,10,12,5,10,15,37,,,,https://www.fantacalcio.it/serie-a/squadre/cagliari/mazzitelli/1976/2025-26,2025-26
-4734,Miranda J.,D,DS/E,BOL,9,10,25,9,10,25,82,True,60,titolare,https://www.fantacalcio.it/serie-a/squadre/bologna/miranda-j/4734/2025-26,2025-26
+4734,Miranda J.,D,DS/E,BOL,9,10,25,9,10,25,82,True,70,titolare,https://www.fantacalcio.it/serie-a/squadre/bologna/miranda-j/4734/2025-26,2025-26
 4236,Muric,P,POR,SAS,3,10,6,3,10,6,84,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/sassuolo/muric/4236/2025-26,2025-26
 6831,Neres,C,W/A,NAP,13,10,15,13,10,15,42,False,60,panchina,https://www.fantacalcio.it/serie-a/squadre/napoli/neres/6831/2025-26,2025-26
 5336,Nzola,A,PC,SAS,12,10,15,12,10,12,71,False,20,panchina,https://www.fantacalcio.it/serie-a/squadre/sassuolo/nzola/5336/2025-26,2025-26
@@ -322,7 +322,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 6827,Njie,A,A,TOR,1,6,4,1,6,4,26,True,60,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/njie/6827/2025-26,2025-26
 7138,Ordonez C.,C,M/C,PAR,5,6,12,6,6,15,55,False,60,panchina,https://www.fantacalcio.it/serie-a/squadre/parma/ordonez-c/7138/2025-26,2025-26
 5449,Parisi,D,E,FIO,5,6,12,4,6,12,61,,,,https://www.fantacalcio.it/serie-a/squadre/fiorentina/parisi/5449/2025-26,2025-26
-7172,Pessina Mas.,P,POR,BOL,1,6,2,1,6,2,11,False,30,panchina,https://www.fantacalcio.it/serie-a/squadre/bologna/pessina-mas/7172/2025-26,2025-26
+7172,Pessina Mas.,P,POR,BOL,1,6,2,1,6,2,11,False,45,panchina,https://www.fantacalcio.it/serie-a/squadre/bologna/pessina-mas/7172/2025-26,2025-26
 4378,Ranieri L.,D,DS/DC,FIO,7,6,10,7,6,12,82,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/fiorentina/ranieri-l/4378/2025-26,2025-26
 2475,Sanchez,A,A,UDI,7,6,10,7,6,10,0,,,,https://www.fantacalcio.it/serie-a/squadre/udinese/sanchez/2475/2025-26,2025-26
 6458,Serdar,C,C,VER,5,6,10,5,6,10,47,,,,https://www.fantacalcio.it/serie-a/squadre/verona/serdar/6458/2025-26,2025-26
