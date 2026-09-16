@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-09-16T11:19:12+00:00",
+    "updated_at": "2026-09-16T16:39:40+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -2227,7 +2227,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/roma/hermoso/4807/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 90,
+      "probabile_pct": 80,
       "probabile_status": "titolare"
     },
     {
@@ -2267,7 +2267,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/roma/konè-m/5589/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 75,
+      "probabile_pct": 80,
       "probabile_status": "titolare"
     },
     {
@@ -2707,7 +2707,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/roma/n-dicka/4317/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 70,
+      "probabile_pct": 80,
       "probabile_status": "titolare"
     },
     {
