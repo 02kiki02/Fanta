@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-09-25T17:00:57+00:00",
+    "updated_at": "2026-09-25T21:25:39+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -7871,26 +7871,6 @@
       "probabile_status": "titolare"
     },
     {
-      "id": "4930",
-      "nome": "Ghion",
-      "ruolo": "C",
-      "ruolo_mantra": "M/C",
-      "squadra": "SAS",
-      "team_id": "17",
-      "qi": 4,
-      "qa": 4,
-      "fvm": 9,
-      "qi_mantra": 4,
-      "qa_mantra": 4,
-      "fvm_mantra": 12,
-      "presenze_pct": 0,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 25,
-      "probabile_status": "panchina"
-    },
-    {
       "id": "5688",
       "nome": "Harroui",
       "ruolo": "C",
@@ -10891,26 +10871,6 @@
       "probabile_status": null
     },
     {
-      "id": "7277",
-      "nome": "Arena A.",
-      "ruolo": "A",
-      "ruolo_mantra": "PC",
-      "squadra": "ROM",
-      "team_id": "15",
-      "qi": 1,
-      "qa": 1,
-      "fvm": 1,
-      "qi_mantra": 1,
-      "qa_mantra": 1,
-      "fvm_mantra": 1,
-      "presenze_pct": 3,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/roma/arena-a/7277/2025-26",
-      "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
-    },
-    {
       "id": "7027",
       "nome": "Azon",
       "ruolo": "A",
@@ -13269,6 +13229,46 @@
       "probabile": null,
       "probabile_pct": null,
       "probabile_status": null
+    },
+    {
+      "id": "7277",
+      "nome": "Arena A.",
+      "ruolo": "A",
+      "ruolo_mantra": "PC",
+      "squadra": "ROM",
+      "team_id": "15",
+      "qi": 1,
+      "qa": 0,
+      "fvm": 0,
+      "qi_mantra": 1,
+      "qa_mantra": 0,
+      "fvm_mantra": 0,
+      "presenze_pct": 3,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/roma/arena-a/7277/2025-26",
+      "season": "2025-26",
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
+    },
+    {
+      "id": "4930",
+      "nome": "Ghion",
+      "ruolo": "C",
+      "ruolo_mantra": "M/C",
+      "squadra": "SAS",
+      "team_id": "17",
+      "qi": 4,
+      "qa": 0,
+      "fvm": 0,
+      "qi_mantra": 4,
+      "qa_mantra": 0,
+      "fvm_mantra": 0,
+      "presenze_pct": 0,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26",
+      "season": "2025-26",
+      "probabile": false,
+      "probabile_pct": 25,
+      "probabile_status": "panchina"
     }
   ]
 }
