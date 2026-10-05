@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-10-05T14:19:42+00:00",
+    "updated_at": "2026-10-05T23:57:25+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -1566,9 +1566,9 @@
       "presenze_pct": 92,
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/saelemaekers/4892/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 50,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "5526",
@@ -3327,7 +3327,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/napoli/beukema/6202/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 50,
+      "probabile_pct": 55,
       "probabile_status": "panchina"
     },
     {
@@ -5227,7 +5227,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/napoli/vergara/7223/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 60,
+      "probabile_pct": 50,
       "probabile_status": "panchina"
     },
     {
@@ -9126,9 +9126,9 @@
       "presenze_pct": 29,
       "url": "https://www.fantacalcio.it/serie-a/squadre/torino/marianucci/6809/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": false,
+      "probabile_pct": 30,
+      "probabile_status": "panchina"
     },
     {
       "id": "6984",
@@ -9927,7 +9927,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/genoa/fini/6506/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 50,
+      "probabile_pct": 55,
       "probabile_status": "panchina"
     },
     {
