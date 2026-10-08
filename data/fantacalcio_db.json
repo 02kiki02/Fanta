@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-10-08T13:14:31+00:00",
+    "updated_at": "2026-10-08T23:12:50+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -107,7 +107,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/como/douvikas/7017/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 80,
+      "probabile_pct": 90,
       "probabile_status": "titolare"
     },
     {
@@ -127,7 +127,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/como/paz-n/6875/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 90,
+      "probabile_pct": 80,
       "probabile_status": "titolare"
     },
     {
@@ -207,7 +207,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/napoli/mctominay/4777/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 25,
+      "probabile_pct": 15,
       "probabile_status": "panchina"
     },
     {
@@ -987,7 +987,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/torino/adams-c/6646/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 25,
+      "probabile_pct": 35,
       "probabile_status": "panchina"
     },
     {
@@ -2587,7 +2587,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/como/diao/6967/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 80,
+      "probabile_pct": 85,
       "probabile_status": "titolare"
     },
     {
@@ -10767,7 +10767,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/torino/aboukhlal/7183/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 30,
+      "probabile_pct": 25,
       "probabile_status": "panchina"
     },
     {
