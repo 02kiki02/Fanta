@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-10-13T14:00:14+00:00",
+    "updated_at": "2026-10-13T22:33:36+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -5407,7 +5407,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/udinese/ehizibue/6047/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 90,
+      "probabile_pct": 80,
       "probabile_status": "titolare"
     },
     {
@@ -5646,9 +5646,9 @@
       "presenze_pct": 82,
       "url": "https://www.fantacalcio.it/serie-a/squadre/genoa/marcandalli/6660/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 80,
-      "probabile_status": "titolare"
+      "probabile": false,
+      "probabile_pct": 50,
+      "probabile_status": "panchina"
     },
     {
       "id": "7208",
@@ -6806,9 +6806,9 @@
       "presenze_pct": 24,
       "url": "https://www.fantacalcio.it/serie-a/squadre/genoa/amorim/7341/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": false,
+      "probabile_pct": 20,
+      "probabile_status": "panchina"
     },
     {
       "id": "441",
@@ -10486,9 +10486,9 @@
       "presenze_pct": 26,
       "url": "https://www.fantacalcio.it/serie-a/squadre/genoa/otoa/6977/2025-26",
       "season": "2025-26",
-      "probabile": null,
-      "probabile_pct": null,
-      "probabile_status": null
+      "probabile": true,
+      "probabile_pct": 55,
+      "probabile_status": "titolare"
     },
     {
       "id": "6925",
