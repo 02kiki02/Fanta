@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-10-15T11:15:46+00:00",
+    "updated_at": "2026-10-15T16:46:46+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -2887,7 +2887,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/cancellieri/5500/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 55,
+      "probabile_pct": 20,
       "probabile_status": "panchina"
     },
     {
@@ -2907,7 +2907,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/cataldi/333/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 55,
+      "probabile_pct": 60,
       "probabile_status": "panchina"
     },
     {
@@ -4167,7 +4167,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/atalanta/de-roon/22/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 85,
+      "probabile_pct": 90,
       "probabile_status": "titolare"
     },
     {
@@ -7927,7 +7927,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/heggem/7212/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 60,
+      "probabile_pct": 55,
       "probabile_status": "titolare"
     },
     {
