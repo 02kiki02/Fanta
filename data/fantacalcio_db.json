@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-10-20T11:20:04+00:00",
+    "updated_at": "2026-10-20T16:44:51+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -1526,9 +1526,9 @@
       "presenze_pct": 74,
       "url": "https://www.fantacalcio.it/serie-a/squadre/como/rodriguez-je/7129/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 55,
-      "probabile_status": "panchina"
+      "probabile": null,
+      "probabile_pct": null,
+      "probabile_status": null
     },
     {
       "id": "6844",
@@ -3127,7 +3127,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/milan/ricci-s/5453/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 40,
+      "probabile_pct": 50,
       "probabile_status": "panchina"
     },
     {
@@ -5967,7 +5967,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/como/addai/7127/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 40,
+      "probabile_pct": 60,
       "probabile_status": "panchina"
     },
     {
@@ -12851,26 +12851,6 @@
       "probabile_status": "panchina"
     },
     {
-      "id": "7159",
-      "nome": "Skjellerup",
-      "ruolo": "A",
-      "ruolo_mantra": "PC",
-      "squadra": "SAS",
-      "team_id": "17",
-      "qi": 1,
-      "qa": 1,
-      "fvm": 1,
-      "qi_mantra": 1,
-      "qa_mantra": 1,
-      "fvm_mantra": 1,
-      "presenze_pct": 0,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/skjellerup/7159/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 30,
-      "probabile_status": "panchina"
-    },
-    {
       "id": "219",
       "nome": "Sommariva",
       "ruolo": "P",
@@ -13268,6 +13248,26 @@
       "season": "2025-26",
       "probabile": false,
       "probabile_pct": 15,
+      "probabile_status": "panchina"
+    },
+    {
+      "id": "7159",
+      "nome": "Skjellerup",
+      "ruolo": "A",
+      "ruolo_mantra": "PC",
+      "squadra": "SAS",
+      "team_id": "17",
+      "qi": 1,
+      "qa": 0,
+      "fvm": 0,
+      "qi_mantra": 1,
+      "qa_mantra": 0,
+      "fvm_mantra": 0,
+      "presenze_pct": 0,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/skjellerup/7159/2025-26",
+      "season": "2025-26",
+      "probabile": false,
+      "probabile_pct": 30,
       "probabile_status": "panchina"
     }
   ]
