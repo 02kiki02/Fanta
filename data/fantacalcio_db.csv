@@ -18,7 +18,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 2137,Scamacca,A,PC,ATA,19,23,95,19,23,92,58,False,60,panchina,https://www.fantacalcio.it/serie-a/squadre/atalanta/scamacca/2137/2025-26,2025-26
 505,Bonazzoli,A,A,CRE,1,22,40,1,22,40,92,,,,https://www.fantacalcio.it/serie-a/squadre/cremonese/bonazzoli/505/2025-26,2025-26
 7071,Esposito F.P.,A,PC,INT,7,22,41,7,22,38,82,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/inter/esposito-f-p/7071/2025-26,2025-26
-2061,Simeone,A,PC,TOR,8,22,99,7,23,96,84,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/simeone/2061/2025-26,2025-26
+2061,Simeone,A,PC,TOR,8,22,99,7,23,96,84,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/simeone/2061/2025-26,2025-26
 2517,De Bruyne,C,T,NAP,23,21,92,22,22,92,45,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/napoli/de-bruyne/2517/2025-26,2025-26
 4463,Esposito Se.,A,A,CAG,7,21,70,7,21,70,95,True,70,titolare,https://www.fantacalcio.it/serie-a/squadre/cagliari/esposito-se/4463/2025-26,2025-26
 6060,Laurientè,A,A,SAS,15,21,82,15,21,82,97,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/sassuolo/laurientè/6060/2025-26,2025-26
@@ -42,12 +42,12 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 7023,Pellegrino M.,A,PC,PAR,13,18,67,12,18,64,97,True,55,titolare,https://www.fantacalcio.it/serie-a/squadre/parma/pellegrino-m/7023/2025-26,2025-26
 6572,Castro S.,A,PC,BOL,19,17,30,19,17,27,92,False,55,panchina,https://www.fantacalcio.it/serie-a/squadre/bologna/castro-s/6572/2025-26,2025-26
 6717,Konè I.,C,M/C,SAS,6,17,67,7,18,77,92,,,,https://www.fantacalcio.it/serie-a/squadre/sassuolo/konè-i/6717/2025-26,2025-26
-1933,Mandragora,C,M/C,FIO,14,17,60,14,17,70,89,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/fiorentina/mandragora/1933/2025-26,2025-26
+1933,Mandragora,C,M/C,FIO,14,17,60,14,17,70,89,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/fiorentina/mandragora/1933/2025-26,2025-26
 2170,Milinkovic-Savic V.,P,POR,NAP,4,17,37,4,17,37,71,False,45,panchina,https://www.fantacalcio.it/serie-a/squadre/napoli/milinkovic-savic-v/2170/2025-26,2025-26
 5022,Pavlovic,D,DC,MIL,7,17,60,7,17,60,89,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/milan/pavlovic/5022/2025-26,2025-26
 5841,Svilar,P,POR,ROM,15,17,105,15,17,105,100,,,,https://www.fantacalcio.it/serie-a/squadre/roma/svilar/5841/2025-26,2025-26
-5687,Vlasic,C,T,TOR,15,17,100,14,17,100,97,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/vlasic/5687/2025-26,2025-26
-6646,Adams C.,A,A,TOR,14,16,23,14,16,23,84,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/adams-c/6646/2025-26,2025-26
+5687,Vlasic,C,T,TOR,15,17,100,14,17,100,97,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/vlasic/5687/2025-26,2025-26
+6646,Adams C.,A,A,TOR,14,16,23,14,16,23,84,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/adams-c/6646/2025-26,2025-26
 6966,Butez,P,POR,COM,10,16,95,10,16,95,100,True,55,titolare,https://www.fantacalcio.it/serie-a/squadre/como/butez/6966/2025-26,2025-26
 5995,De Ketelaere,A,A,ATA,22,16,59,23,16,59,82,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/atalanta/de-ketelaere/5995/2025-26,2025-26
 6398,Isaksen,C,W/A,LAZ,14,16,35,14,16,35,71,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/lazio/isaksen/6398/2025-26,2025-26
@@ -163,7 +163,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 7133,Vandeputte,C,W/T,CRE,12,11,15,12,11,17,82,,,,https://www.fantacalcio.it/serie-a/squadre/cremonese/vandeputte/7133/2025-26,2025-26
 5514,Vasquez,D,DS/DC,GEN,9,11,26,10,11,29,95,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/genoa/vasquez/5514/2025-26,2025-26
 6496,Bartesaghi,D,DS/E,MIL,3,10,15,3,10,15,82,False,60,panchina,https://www.fantacalcio.it/serie-a/squadre/milan/bartesaghi/6496/2025-26,2025-26
-7220,Belghali,D,DD/E,VER,4,10,12,4,10,12,68,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/verona/belghali/7220/2025-26,2025-26
+7220,Belghali,D,DD/E,VER,4,10,12,4,10,12,68,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/verona/belghali/7220/2025-26,2025-26
 6202,Beukema,D,DC,NAP,10,10,10,10,10,10,58,False,35,panchina,https://www.fantacalcio.it/serie-a/squadre/napoli/beukema/6202/2025-26,2025-26
 7332,Bijlow,P,POR,GEN,10,10,10,10,10,10,42,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/genoa/bijlow/7332/2025-26,2025-26
 7347,Bowie,A,A,VER,6,10,33,6,10,33,37,False,60,panchina,https://www.fantacalcio.it/serie-a/squadre/verona/bowie/7347/2025-26,2025-26
@@ -204,7 +204,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 5835,Baschirotto,D,DC,CRE,8,9,13,8,9,13,76,,,,https://www.fantacalcio.it/serie-a/squadre/cremonese/baschirotto/5835/2025-26,2025-26
 7219,Bernasconi,D,E,ATA,1,9,12,1,9,10,58,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/atalanta/bernasconi/7219/2025-26,2025-26
 5520,Cambiaso,D,E,JUV,15,9,17,14,9,15,95,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/juventus/cambiaso/5520/2025-26,2025-26
-6642,Coco,D,DC,TOR,8,9,12,8,9,12,92,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/coco/6642/2025-26,2025-26
+6642,Coco,D,DC,TOR,8,9,12,8,9,12,92,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/coco/6642/2025-26,2025-26
 6662,Corvi,P,POR,PAR,1,9,5,1,9,5,45,True,70,titolare,https://www.fantacalcio.it/serie-a/squadre/parma/corvi/6662/2025-26,2025-26
 22,De Roon,C,M/C,ATA,12,9,22,13,9,27,89,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/atalanta/de-roon/22/2025-26,2025-26
 795,El Shaarawy,C,W,ROM,8,9,11,7,9,11,47,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/roma/el-shaarawy/795/2025-26,2025-26
@@ -314,7 +314,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 7342,Elphege,A,PC,PAR,1,6,18,1,6,15,21,,,,https://www.fantacalcio.it/serie-a/squadre/parma/elphege/7342/2025-26,2025-26
 6206,Fabbian,C,C/T,FIO,10,6,9,10,6,9,58,True,55,titolare,https://www.fantacalcio.it/serie-a/squadre/fiorentina/fabbian/6206/2025-26,2025-26
 6046,Hien,D,DC,ATA,11,6,10,11,6,10,74,,,,https://www.fantacalcio.it/serie-a/squadre/atalanta/hien/6046/2025-26,2025-26
-5010,Ismajli,D,DC,TOR,8,6,14,8,6,14,63,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/ismajli/5010/2025-26,2025-26
+5010,Ismajli,D,DC,TOR,8,6,14,8,6,14,63,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/ismajli/5010/2025-26,2025-26
 7175,Joao Mario,D,E,BOL,8,6,12,7,6,12,37,False,35,panchina,https://www.fantacalcio.it/serie-a/squadre/bologna/joao-mario/7175/2025-26,2025-26
 5555,Kamara H.,D,DS/E,UDI,7,6,15,7,6,15,68,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/udinese/kamara-h/5555/2025-26,2025-26
 5578,Kossounou,D,DD/DC,ATA,9,6,8,9,6,10,42,,,,https://www.fantacalcio.it/serie-a/squadre/atalanta/kossounou/5578/2025-26,2025-26
@@ -336,7 +336,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 4461,Zappa,D,B/DD/E,CAG,6,6,8,7,6,10,66,,,,https://www.fantacalcio.it/serie-a/squadre/cagliari/zappa/4461/2025-26,2025-26
 5998,Zerbin,C,E/W,CRE,3,6,9,3,6,12,76,False,60,panchina,https://www.fantacalcio.it/serie-a/squadre/cremonese/zerbin/5998/2025-26,2025-26
 513,Acerbi,D,DC,INT,9,5,10,9,5,10,42,,,,https://www.fantacalcio.it/serie-a/squadre/inter/acerbi/513/2025-26,2025-26
-6593,Akinsanmiro,C,C/T,PIS,3,5,11,3,5,11,61,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/pisa/akinsanmiro/6593/2025-26,2025-26
+6593,Akinsanmiro,C,C/T,PIS,3,5,11,3,5,11,61,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/pisa/akinsanmiro/6593/2025-26,2025-26
 5286,Akpa Akpro,C,M/C,VER,1,5,10,1,5,16,58,,,,https://www.fantacalcio.it/serie-a/squadre/verona/akpa-akpro/5286/2025-26,2025-26
 7341,Amorim,C,M/C,GEN,5,5,11,5,5,11,24,False,55,panchina,https://www.fantacalcio.it/serie-a/squadre/genoa/amorim/7341/2025-26,2025-26
 441,Belotti,A,PC,CAG,12,5,10,11,4,10,11,,,,https://www.fantacalcio.it/serie-a/squadre/cagliari/belotti/441/2025-26,2025-26
@@ -345,7 +345,6 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 7139,Canestrelli,D,DC,PIS,3,5,11,3,5,11,97,,,,https://www.fantacalcio.it/serie-a/squadre/pisa/canestrelli/7139/2025-26,2025-26
 697,Cuadrado,D,E,PIS,7,5,8,6,5,8,39,,,,https://www.fantacalcio.it/serie-a/squadre/pisa/cuadrado/697/2025-26,2025-26
 5471,Djuric,A,PC,CRE,9,5,8,8,5,8,24,,,,https://www.fantacalcio.it/serie-a/squadre/cremonese/djuric/5471/2025-26,2025-26
-6230,Dossena,D,DC,CAG,4,5,8,4,5,8,29,False,15,panchina,https://www.fantacalcio.it/serie-a/squadre/cagliari/dossena/6230/2025-26,2025-26
 5994,Ebosse,D,DS/DC,TOR,4,5,7,5,5,9,42,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/torino/ebosse/5994/2025-26,2025-26
 5290,Estevez,C,M/C,PAR,2,5,8,2,5,8,58,,,,https://www.fantacalcio.it/serie-a/squadre/parma/estevez/5290/2025-26,2025-26
 5858,Ferguson,C,C/T,BOL,11,5,12,11,5,12,61,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/bologna/ferguson/5858/2025-26,2025-26
@@ -387,12 +386,11 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 7255,Britschgi,D,DD/DS/E,PAR,1,4,8,1,4,10,74,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/parma/britschgi/7255/2025-26,2025-26
 6106,Carboni V.,C,T/A,GEN,11,4,12,11,4,12,26,,,,https://www.fantacalcio.it/serie-a/squadre/genoa/carboni-v/6106/2025-26,2025-26
 4856,Chukwueze,C,W,MIL,4,4,11,3,3,9,3,,,,https://www.fantacalcio.it/serie-a/squadre/milan/chukwueze/4856/2025-26,2025-26
-6495,Comuzzo,D,DC,FIO,7,4,11,7,4,11,63,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/fiorentina/comuzzo/6495/2025-26,2025-26
+6495,Comuzzo,D,DC,FIO,7,4,11,7,4,11,63,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/fiorentina/comuzzo/6495/2025-26,2025-26
 6665,Coulibaly W.,D,DD/DS/E,SAS,3,4,4,4,4,6,47,,,,https://www.fantacalcio.it/serie-a/squadre/sassuolo/coulibaly-w/6665/2025-26,2025-26
 5851,Doig,D,DS/E,SAS,6,4,10,6,4,10,71,True,80,titolare,https://www.fantacalcio.it/serie-a/squadre/sassuolo/doig/5851/2025-26,2025-26
 7130,Folino,D,DC,CRE,4,4,8,4,4,8,29,,,,https://www.fantacalcio.it/serie-a/squadre/cremonese/folino/7130/2025-26,2025-26
 2848,Frattesi,C,C/T,INT,14,4,10,14,4,10,37,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/inter/frattesi/2848/2025-26,2025-26
-4930,Ghion,C,M/C,SAS,4,4,9,4,4,12,0,False,25,panchina,https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26,2025-26
 5688,Harroui,C,W/T,VER,7,4,10,7,4,12,45,,,,https://www.fantacalcio.it/serie-a/squadre/verona/harroui/5688/2025-26,2025-26
 7212,Heggem,D,DS/DC,BOL,4,4,12,5,4,14,66,False,55,panchina,https://www.fantacalcio.it/serie-a/squadre/bologna/heggem/7212/2025-26,2025-26
 785,Immobile,A,PC,BOL,19,4,15,19,4,12,16,,,,https://www.fantacalcio.it/serie-a/squadre/bologna/immobile/785/2025-26,2025-26
@@ -497,7 +495,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 6506,Fini,C,E/W,GEN,1,2,1,1,2,1,3,False,55,panchina,https://www.fantacalcio.it/serie-a/squadre/genoa/fini/6506/2025-26,2025-26
 7069,Fortini,D,E,FIO,3,2,9,3,2,9,32,,,,https://www.fantacalcio.it/serie-a/squadre/fiorentina/fortini/7069/2025-26,2025-26
 6632,Gaspar K.,D,DC,LEC,8,2,10,8,2,10,55,True,55,titolare,https://www.fantacalcio.it/serie-a/squadre/lecce/gaspar-k/6632/2025-26,2025-26
-6537,Goglichidze,D,DD/DC,UDI,4,2,7,4,2,9,16,True,85,titolare,https://www.fantacalcio.it/serie-a/squadre/udinese/goglichidze/6537/2025-26,2025-26
+6537,Goglichidze,D,DD/DC,UDI,4,2,7,4,2,9,16,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/udinese/goglichidze/6537/2025-26,2025-26
 7248,Gorter,C,M/C,LEC,1,2,1,1,2,1,3,False,40,panchina,https://www.fantacalcio.it/serie-a/squadre/lecce/gorter/7248/2025-26,2025-26
 6722,Gronbaek,C,W/T,GEN,12,2,4,12,2,4,5,,,,https://www.fantacalcio.it/serie-a/squadre/genoa/gronbaek/6722/2025-26,2025-26
 6821,Hainaut,D,DD/E,PAR,2,2,5,2,2,5,0,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/parma/hainaut/6821/2025-26,2025-26
@@ -543,7 +541,6 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 388,Albiol,D,DC,PIS,5,1,8,5,1,8,21,,,,https://www.fantacalcio.it/serie-a/squadre/pisa/albiol/388/2025-26,2025-26
 2553,Alli,C,T,COM,1,1,1,1,1,1,0,,,,https://www.fantacalcio.it/serie-a/squadre/como/alli/2553/2025-26,2025-26
 7151,Arena,C,W/T,PIS,1,1,5,1,1,5,0,,,,https://www.fantacalcio.it/serie-a/squadre/pisa/arena/7151/2025-26,2025-26
-7277,Arena A.,A,PC,ROM,1,1,1,1,1,1,3,,,,https://www.fantacalcio.it/serie-a/squadre/roma/arena-a/7277/2025-26,2025-26
 7027,Azon,A,PC,COM,1,1,5,1,1,3,0,,,,https://www.fantacalcio.it/serie-a/squadre/como/azon/7027/2025-26,2025-26
 7262,Balentien,A,A,MIL,1,1,1,1,1,1,0,,,,https://www.fantacalcio.it/serie-a/squadre/milan/balentien/7262/2025-26,2025-26
 5516,Bianco,C,M/C,FIO,1,1,2,1,1,3,0,,,,https://www.fantacalcio.it/serie-a/squadre/fiorentina/bianco/5516/2025-26,2025-26
@@ -584,7 +581,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 7309,Isaac,A,PC,VER,1,1,1,1,1,1,3,,,,https://www.fantacalcio.it/serie-a/squadre/verona/isaac/7309/2025-26,2025-26
 7179,Israel,P,POR,TOR,9,1,1,9,1,1,24,,,,https://www.fantacalcio.it/serie-a/squadre/torino/israel/7179/2025-26,2025-26
 2117,Kastanos,C,C/T,VER,4,1,8,4,1,8,3,,,,https://www.fantacalcio.it/serie-a/squadre/verona/kastanos/2117/2025-26,2025-26
-7238,Kouadio,D,DC,FIO,1,1,1,1,1,1,3,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/fiorentina/kouadio/7238/2025-26,2025-26
+7238,Kouadio,D,DC,FIO,1,1,1,1,1,1,3,False,60,panchina,https://www.fantacalcio.it/serie-a/squadre/fiorentina/kouadio/7238/2025-26,2025-26
 2762,Kouamè,A,A,FIO,1,1,1,1,1,1,3,,,,https://www.fantacalcio.it/serie-a/squadre/fiorentina/kouamè/2762/2025-26,2025-26
 7136,Kouassi,D,DD/DC,LEC,4,1,4,5,1,4,11,,,,https://www.fantacalcio.it/serie-a/squadre/lecce/kouassi/7136/2025-26,2025-26
 7357,Lahdo,C,C/T,COM,2,1,5,2,1,5,0,False,10,panchina,https://www.fantacalcio.it/serie-a/squadre/como/lahdo/7357/2025-26,2025-26
@@ -643,7 +640,6 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 6991,Siegrist,P,POR,GEN,1,1,1,1,1,1,0,,,,https://www.fantacalcio.it/serie-a/squadre/genoa/siegrist/6991/2025-26,2025-26
 2211,Silvestri,P,POR,CRE,1,1,1,1,1,1,11,,,,https://www.fantacalcio.it/serie-a/squadre/cremonese/silvestri/2211/2025-26,2025-26
 7363,Siviero,P,POR,TOR,1,1,1,1,1,1,0,False,1,panchina,https://www.fantacalcio.it/serie-a/squadre/torino/siviero/7363/2025-26,2025-26
-7159,Skjellerup,A,PC,SAS,1,1,1,1,1,1,0,False,30,panchina,https://www.fantacalcio.it/serie-a/squadre/sassuolo/skjellerup/7159/2025-26,2025-26
 219,Sommariva,P,POR,GEN,1,1,1,1,1,1,5,False,1,panchina,https://www.fantacalcio.it/serie-a/squadre/genoa/sommariva/219/2025-26,2025-26
 4,Sportiello,P,POR,ATA,1,1,1,1,1,1,3,False,5,panchina,https://www.fantacalcio.it/serie-a/squadre/atalanta/sportiello/4/2025-26,2025-26
 7135,Stanciu,C,C/T,GEN,8,1,5,8,1,5,11,,,,https://www.fantacalcio.it/serie-a/squadre/genoa/stanciu/7135/2025-26,2025-26
@@ -651,9 +647,9 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 4890,Tameze,C,M/C,TOR,5,1,9,5,1,12,45,,,,https://www.fantacalcio.it/serie-a/squadre/torino/tameze/4890/2025-26,2025-26
 2815,Terracciano,P,POR,MIL,1,1,1,1,1,1,5,False,5,panchina,https://www.fantacalcio.it/serie-a/squadre/milan/terracciano/2815/2025-26,2025-26
 7236,Toniolo,P,POR,VER,1,1,1,1,1,1,0,,,,https://www.fantacalcio.it/serie-a/squadre/verona/toniolo/7236/2025-26,2025-26
-7301,Tornqvist,P,POR,COM,1,1,1,1,1,1,0,True,90,titolare,https://www.fantacalcio.it/serie-a/squadre/como/tornqvist/7301/2025-26,2025-26
+7301,Tornqvist,P,POR,COM,1,1,1,1,1,1,0,True,100,titolare,https://www.fantacalcio.it/serie-a/squadre/como/tornqvist/7301/2025-26,2025-26
 6813,Torriani,P,POR,MIL,1,1,1,1,1,1,0,False,1,panchina,https://www.fantacalcio.it/serie-a/squadre/milan/torriani/6813/2025-26,2025-26
-7317,Trepy,A,PC,CAG,1,1,1,1,1,1,8,False,10,panchina,https://www.fantacalcio.it/serie-a/squadre/cagliari/trepy/7317/2025-26,2025-26
+7317,Trepy,A,PC,CAG,1,1,1,1,1,1,8,,,,https://www.fantacalcio.it/serie-a/squadre/cagliari/trepy/7317/2025-26,2025-26
 2274,Valoti,C,C/T,CRE,7,1,3,7,1,3,0,,,,https://www.fantacalcio.it/serie-a/squadre/cremonese/valoti/2274/2025-26,2025-26
 6125,Vasquez D.,P,POR,ROM,1,1,1,1,1,1,0,False,1,panchina,https://www.fantacalcio.it/serie-a/squadre/roma/vasquez-d/6125/2025-26,2025-26
 7368,Vermesan,A,PC,VER,1,1,1,1,1,1,3,,,,https://www.fantacalcio.it/serie-a/squadre/verona/vermesan/7368/2025-26,2025-26
@@ -662,3 +658,7 @@ id,nome,ruolo,ruolo_mantra,squadra,qi,qa,fvm,qi_mantra,qa_mantra,fvm_mantra,pres
 5610,Vranckx,C,M/C,SAS,4,1,9,5,1,10,37,,,,https://www.fantacalcio.it/serie-a/squadre/sassuolo/vranckx/5610/2025-26,2025-26
 6464,Wieteska,D,DC,CAG,1,1,2,1,1,2,0,,,,https://www.fantacalcio.it/serie-a/squadre/cagliari/wieteska/6464/2025-26,2025-26
 7169,Zelezny,P,POR,ROM,1,1,1,1,1,1,0,,,,https://www.fantacalcio.it/serie-a/squadre/roma/zelezny/7169/2025-26,2025-26
+7277,Arena A.,A,PC,ROM,1,0,0,1,0,0,3,,,,https://www.fantacalcio.it/serie-a/squadre/roma/arena-a/7277/2025-26,2025-26
+6230,Dossena,D,DC,CAG,4,0,0,4,0,0,29,False,15,panchina,https://www.fantacalcio.it/serie-a/squadre/cagliari/dossena/6230/2025-26,2025-26
+4930,Ghion,C,M/C,SAS,4,0,0,4,0,0,0,False,25,panchina,https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26,2025-26
+7159,Skjellerup,A,PC,SAS,1,0,0,1,0,0,0,False,30,panchina,https://www.fantacalcio.it/serie-a/squadre/sassuolo/skjellerup/7159/2025-26,2025-26
