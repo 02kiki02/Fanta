@@ -1,7 +1,7 @@
 {
   "meta": {
     "season": "2025-26",
-    "updated_at": "2026-11-14T05:57:50+00:00",
+    "updated_at": "2026-11-14T13:23:28+00:00",
     "source": "fantacalcio.it",
     "urls": {
       "quotazioni": "https://www.fantacalcio.it/quotazioni-fantacalcio/2025-26",
@@ -647,7 +647,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/orsolini/2167/2025-26",
       "season": "2025-26",
       "probabile": true,
-      "probabile_pct": 70,
+      "probabile_pct": 80,
       "probabile_status": "titolare"
     },
     {
@@ -1986,9 +1986,9 @@
       "presenze_pct": 63,
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/bernardeschi/184/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 60,
-      "probabile_status": "panchina"
+      "probabile": true,
+      "probabile_pct": 70,
+      "probabile_status": "titolare"
     },
     {
       "id": "5036",
@@ -2187,7 +2187,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/fiorentina/gudmundsson-a/5800/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 35,
+      "probabile_pct": 50,
       "probabile_status": "panchina"
     },
     {
@@ -2526,9 +2526,9 @@
       "presenze_pct": 63,
       "url": "https://www.fantacalcio.it/serie-a/squadre/bologna/cambiaghi/4436/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 80,
-      "probabile_status": "titolare"
+      "probabile": false,
+      "probabile_pct": 50,
+      "probabile_status": "panchina"
     },
     {
       "id": "4360",
@@ -2907,7 +2907,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/cataldi/333/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 55,
+      "probabile_pct": 60,
       "probabile_status": "panchina"
     },
     {
@@ -6206,9 +6206,9 @@
       "presenze_pct": 55,
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/dele-bashiru/6629/2025-26",
       "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 60,
-      "probabile_status": "panchina"
+      "probabile": true,
+      "probabile_pct": 80,
+      "probabile_status": "titolare"
     },
     {
       "id": "5672",
@@ -7866,9 +7866,29 @@
       "presenze_pct": 37,
       "url": "https://www.fantacalcio.it/serie-a/squadre/inter/frattesi/2848/2025-26",
       "season": "2025-26",
-      "probabile": true,
-      "probabile_pct": 70,
-      "probabile_status": "titolare"
+      "probabile": false,
+      "probabile_pct": 50,
+      "probabile_status": "panchina"
+    },
+    {
+      "id": "4930",
+      "nome": "Ghion",
+      "ruolo": "C",
+      "ruolo_mantra": "M/C",
+      "squadra": "SAS",
+      "team_id": "17",
+      "qi": 4,
+      "qa": 4,
+      "fvm": 9,
+      "qi_mantra": 4,
+      "qa_mantra": 4,
+      "fvm_mantra": 12,
+      "presenze_pct": 0,
+      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26",
+      "season": "2025-26",
+      "probabile": false,
+      "probabile_pct": 25,
+      "probabile_status": "panchina"
     },
     {
       "id": "5688",
@@ -10587,7 +10607,7 @@
       "url": "https://www.fantacalcio.it/serie-a/squadre/lazio/rovella/4459/2025-26",
       "season": "2025-26",
       "probabile": false,
-      "probabile_pct": 40,
+      "probabile_pct": 55,
       "probabile_status": "panchina"
     },
     {
@@ -13249,26 +13269,6 @@
       "probabile": null,
       "probabile_pct": null,
       "probabile_status": null
-    },
-    {
-      "id": "4930",
-      "nome": "Ghion",
-      "ruolo": "C",
-      "ruolo_mantra": "M/C",
-      "squadra": "SAS",
-      "team_id": "17",
-      "qi": 4,
-      "qa": 0,
-      "fvm": 0,
-      "qi_mantra": 4,
-      "qa_mantra": 0,
-      "fvm_mantra": 0,
-      "presenze_pct": 0,
-      "url": "https://www.fantacalcio.it/serie-a/squadre/sassuolo/ghion/4930/2025-26",
-      "season": "2025-26",
-      "probabile": false,
-      "probabile_pct": 25,
-      "probabile_status": "panchina"
     }
   ]
 }
